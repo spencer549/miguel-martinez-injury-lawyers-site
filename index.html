@@ -1,0 +1,980 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Miguel Martínez Injury Lawyers, homepage directions</title><meta name="robots" content="noindex">
+<script>document.documentElement.dataset.motion='force';(function(){var p=new URLSearchParams(location.search);document.documentElement.dataset.d=(p.get('d')||'A').toUpperCase();if(p.get('embed'))document.documentElement.dataset.embed='1';})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Montserrat:wght@400;500;600;700&family=Source+Sans+3:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>:root{
+  --blue:#13618a;--ink:#0b2a3b;--ink2:#0f3549;--gold:#a17c40;--gold-l:#c9a468;--gold-d:#7a5a27;--grey:#cccccb;--paper:#f6f4ef;--white:#fff;--text:#1d2b33;--mute:#55646d;
+  --t13:14px;--t15:15px;--t17:17px;--t20:20px;--t24:24px;--t32:32px;--t44:44px;--t60:60px;--t84:84px;--t120:120px;
+  --s8:8px;--s16:16px;--s24:24px;--s32:32px;--s48:48px;--s64:64px;--s96:96px;--s128:128px;
+  --ease-out:cubic-bezier(0.23,1,0.32,1);--ease-in-out:cubic-bezier(0.77,0,0.175,1);--ease-reveal:cubic-bezier(0.16,1,0.3,1);
+  --bar:40px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:var(--text);font-family:"Source Sans 3",system-ui,sans-serif;font-size:var(--t17);line-height:1.6;padding-top:var(--bar)}
+html[data-embed] body{padding-top:0}html[data-embed]{--bar:0px}html[data-embed] .chrome{display:none}
+img{max-width:100%;display:block}
+h1,h2,h3,p,ul,figure{margin:0}ul{padding:0;list-style:none}
+a{color:inherit}
+.wrap{width:min(1240px,100% - 48px);margin-inline:auto}
+.design{display:none;overflow-x:clip}
+html[data-d="A"] .dA,html[data-d="B"] .dB,html[data-d="C"] .dC{display:block}
+.design *{min-width:0}
+
+/* chrome bar */
+.chrome{position:fixed;inset:0 0 auto 0;height:var(--bar);background:#101214;color:#fff;display:flex;align-items:center;gap:8px;padding:0 12px;z-index:1000;font:500 13px/1 Montserrat,sans-serif;overflow-x:auto;white-space:nowrap}
+.chrome-t{margin-right:auto;color:#aeb6bb}
+.chrome button{font:inherit;color:#fff;background:#23282c;border:1px solid #3a4146;border-radius:3px;padding:7px 10px;cursor:pointer}
+html[data-d="A"] .chrome [data-go="A"],html[data-d="B"] .chrome [data-go="B"],html[data-d="C"] .chrome [data-go="C"]{background:#a17c40;border-color:#a17c40;color:#101214}
+.cmp{position:fixed;inset:var(--bar) 0 0 0;z-index:900;display:grid;grid-template-columns:1fr 1fr;gap:2px;background:#101214}
+.cmp[hidden]{display:none}
+.cmp-pane{display:flex;flex-direction:column;min-width:0}
+.cmp-pane select{font:500 13px Montserrat,sans-serif;padding:6px;background:#23282c;color:#fff;border:0}
+.cmp-pane iframe{flex:1;border:0;background:#fff;width:100%}
+@media(max-width:700px){.chrome-t{display:none}}
+
+/* shared pieces */
+.btn{display:inline-block;font:600 var(--t15)/1 Montserrat,sans-serif;padding:16px 24px;border-radius:3px;background:var(--blue);color:#fff;text-decoration:none;border:2px solid var(--blue);cursor:pointer;transition:background-color .16s var(--ease-out),color .16s var(--ease-out),transform .12s var(--ease-out)}
+.btn:active{transform:scale(.97)}
+.btn-line{background:transparent;color:var(--blue)}
+.btn-white{background:#fff;border-color:#fff;color:var(--ink)}
+.btn-gold{background:var(--gold-l);border-color:var(--gold-l);color:var(--ink)}
+.btn-ink{background:var(--ink);border-color:var(--ink);color:#fff}
+@media(hover:hover) and (pointer:fine){.btn:hover{background:var(--ink);border-color:var(--ink);color:#fff}.btn-white:hover,.btn-gold:hover{background:#fff;border-color:#fff;color:var(--ink)}.btn-line:hover{background:var(--blue);border-color:var(--blue);color:#fff}.btn-ink:hover{background:var(--blue);border-color:var(--blue)}}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.note{font-size:var(--t13);color:var(--mute);margin-top:var(--s24)}
+.logo img{height:60px;width:auto}
+.nav{display:flex;gap:var(--s24);font:500 var(--t15)/1 Montserrat,sans-serif}
+.nav a{text-decoration:none;padding:12px 0;display:block}
+.nav .has{position:relative}
+.nav .has ul{position:absolute;left:-16px;top:100%;background:#fff;color:var(--ink);padding:8px 16px;min-width:230px;border:1px solid #d7d7d4;opacity:0;visibility:hidden;transform:translateY(6px);transition:opacity .16s var(--ease-out),transform .16s var(--ease-out),visibility .16s;z-index:5}
+.nav .has:focus-within ul{opacity:1;visibility:visible;transform:none}
+@media(hover:hover) and (pointer:fine){.nav .has:hover ul{opacity:1;visibility:visible;transform:none}.nav a:hover{color:var(--gold-d)}}
+.mnav{display:none;font:500 var(--t15) Montserrat,sans-serif}
+.mnav summary{list-style:none;cursor:pointer;padding:12px 14px;border:2px solid currentColor;border-radius:3px;min-height:44px}
+.mnav summary::-webkit-details-marker{display:none}
+.mnav-list{position:absolute;left:0;right:0;top:100%;background:#fff;color:var(--ink);padding:16px 24px 24px;border-bottom:2px solid var(--gold);max-height:75vh;overflow:auto;z-index:20}
+.mnav-list a{display:block;padding:11px 0;text-decoration:none}
+.mnav-list ul{padding-left:16px;font-weight:400}
+@media(max-width:1080px){.nav{display:none}.mnav{display:block}}
+.lead{display:grid;gap:12px}
+.lead label{font:600 var(--t13) Montserrat,sans-serif;display:block;margin-bottom:4px}
+.lead input:not([type=checkbox]),.lead textarea{width:100%;font:inherit;font-size:16px;padding:12px;border:1px solid #9aa5ab;border-radius:3px;background:#fff;color:var(--text)}
+.f-req,.f-sms{font-size:var(--t13);color:var(--mute);line-height:1.45}
+.req{color:#b3261e}
+.f-check{display:flex!important;gap:8px;align-items:flex-start;font-weight:400!important;font-size:var(--t15)!important}
+.f-check input{width:20px;height:20px;margin-top:2px}
+.q{border-bottom:1px solid #c9cdd0}
+.q summary{cursor:pointer;list-style:none;font:600 var(--t20)/1.35 Montserrat,sans-serif;padding:20px 40px 20px 0;position:relative}
+.q summary::-webkit-details-marker{display:none}
+.q summary::after{content:"+";position:absolute;right:4px;top:16px;font-size:26px;font-weight:400;transition:transform .2s var(--ease-out)}
+.q[open] summary::after{transform:rotate(45deg)}
+.q p{padding:0 0 24px;max-width:68ch}
+.foot{padding:var(--s64) 0 var(--s32);font-size:var(--t15)}
+.f-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:var(--s32)}
+.f-logo{height:64px;width:auto;margin-bottom:var(--s16)}
+.f-h{font:600 var(--t15) Montserrat,sans-serif;margin-bottom:8px}
+.foot li a,.foot p a{text-decoration:none;display:inline-block;padding:5px 0}
+.f-btn{margin-top:var(--s16);padding:14px 20px!important}
+.f-legal{margin-top:var(--s48);padding-top:var(--s24);border-top:1px solid currentColor;font-size:var(--t13);display:grid;gap:8px;opacity:1}
+.f-legal p{max-width:75ch}
+@media(max-width:860px){.f-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.f-grid{grid-template-columns:1fr}}
+
+/* reveal system (preview forces motion on) */
+.rv{opacity:0;transform:translateY(28px);transition:opacity .6s var(--ease-reveal) var(--d,0ms),transform .7s var(--ease-reveal) var(--d,0ms)}
+.rv-l{transform:translateX(-48px)}.rv-r{transform:translateX(48px)}
+.rv.in{opacity:1;transform:none}
+html:not([data-motion="force"]) .rv{transform:none;transition:opacity .4s linear}
+html:not([data-motion="force"]) [data-par],html:not([data-motion="force"]) [data-zoom],html:not([data-motion="force"]) [data-drift]{transform:none!important}
+
+/* ═════════ A: The Other Side of the Aisle ═════════ */
+.dA{font-family:"Source Sans 3",sans-serif;--head:76px}
+.dA h1,.dA h2,.dA h3{font-family:Montserrat,sans-serif;color:var(--ink);line-height:1.15}
+.dA h2{font-size:var(--t44);font-weight:600}
+.dA h3{font-size:var(--t20);font-weight:600}
+.a-head{position:fixed;top:var(--bar);left:0;right:0;height:var(--head);background:#fff;border-bottom:1px solid #d7d7d4;z-index:50}
+.a-head-in{width:min(1360px,100% - 48px);margin-inline:auto;height:100%;display:flex;align-items:center;gap:var(--s24);position:relative}
+.a-head .nav{margin-left:auto;color:var(--ink)}
+.a-phone{font:600 var(--t17) Montserrat,sans-serif;color:var(--blue);text-decoration:none;white-space:nowrap}
+.a-head .btn{padding:14px 20px}
+.dA main{padding-top:var(--head)}
+.a-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.8fr) minmax(0,.95fr);min-height:calc(100vh - var(--bar) - var(--head))}
+.a-hero-copy{background:var(--ink);color:#fff;padding:var(--s96) var(--s64) var(--s64) max(24px,calc((100vw - 1360px)/2));display:flex;flex-direction:column;justify-content:center}
+.a-hero-copy h1{color:#fff;font-size:clamp(34px,3.6vw,56px);font-weight:600}
+.a-sub{font:500 var(--t24)/1.3 Montserrat,sans-serif;color:var(--gold-l);margin-top:var(--s24)}
+.a-line{margin-top:var(--s16);font-size:var(--t17)}
+.a-call{margin-top:var(--s32)}
+.a-call a{font:600 var(--t24) Montserrat,sans-serif;color:#fff;text-decoration-color:var(--gold-l);text-underline-offset:6px}
+.a-slogan{margin-top:var(--s48);font:500 var(--t17) Montserrat,sans-serif;color:var(--gold-l)}
+.a-hero-photo{position:relative;overflow:hidden;background:var(--ink2)}
+.a-hero-photo img{width:100%;height:112%;object-fit:cover;object-position:72% 20%}
+.a-plaque{position:absolute;left:0;bottom:var(--s48);background:#fff;color:var(--ink);font:600 var(--t15)/1.35 Montserrat,sans-serif;padding:16px 20px;max-width:260px;border-left:4px solid var(--gold)}
+.a-hero-form{background:var(--paper);padding:var(--s48) max(24px,calc((100vw - 1360px)/2)) var(--s48) var(--s48);display:flex;flex-direction:column;justify-content:center}
+.a-hero-form h2{font-size:var(--t24)}
+.a-form-sub{font-size:var(--t15);margin:8px 0 16px;color:var(--mute)}
+.a-stats{padding:var(--s64) 0;background:#fff}
+.a-stats-in{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s32)}
+.a-stat-n{font:600 clamp(48px,5.4vw,84px)/1.05 Montserrat,sans-serif;color:var(--blue);margin:4px 0}
+.a-stat-l{font:500 var(--t20) Montserrat,sans-serif;color:var(--ink)}
+.a-pains{background:var(--paper);padding:var(--s128) 0}
+.a-pains-top{display:grid;grid-template-columns:1.3fr 1fr;gap:var(--s64);align-items:end;margin-bottom:var(--s96)}
+.a-pains-top p{font-size:var(--t20)}
+.a-aisle{position:relative;display:grid;gap:var(--s96)}
+.a-aisle-line{position:absolute;left:50%;top:0;bottom:0;width:2px;margin-left:-1px;background:var(--gold);transform-origin:top;transform:scaleY(0)}
+html:not([data-motion="force"]) .a-aisle-line{transform:none!important}
+.a-row{display:grid;grid-template-columns:1fr 24px 1fr;gap:var(--s64);align-items:center}
+.a-row-head p{font:600 var(--t15) Montserrat,sans-serif;color:var(--gold-d)}
+.a-row-head p:first-child{text-align:right}
+.a-q{font:500 var(--t32)/1.25 Montserrat,sans-serif;color:var(--ink);text-align:right}
+.a-dot{width:16px;height:16px;border-radius:50%;background:var(--gold);justify-self:center;position:relative;z-index:1;box-shadow:0 0 0 6px var(--paper)}
+.a-a{font-size:var(--t20);background:#fff;border:1px solid #c9cdd0;padding:var(--s32)}
+.a-steps{background:var(--ink);color:#e8edf0;padding:var(--s96) 0}
+.a-steps h2{color:#fff;max-width:14ch;margin-bottom:var(--s64)}
+.a-steps-row{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s32);padding-top:var(--s32)}
+.a-steps-line{position:absolute;left:0;right:0;top:0;height:2px;background:var(--gold-l);transform-origin:left;transform:scaleX(0)}
+html:not([data-motion="force"]) [data-growx]{transform:none!important}
+.a-step{border:1px solid #47657a;padding:var(--s32)}
+.a-step h3{color:#fff;margin-bottom:12px}
+.a-areas{padding:var(--s128) 0;background:#fff}
+.a-areas h2{max-width:20ch;margin-bottom:var(--s64)}
+.a-file{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,2.1fr);gap:var(--s64);align-items:start}
+.a-tabs{display:grid;position:sticky;top:calc(var(--bar) + var(--head) + 24px)}
+.a-tab{font:600 var(--t24)/1.2 Montserrat,sans-serif;text-align:left;background:none;border:0;border-left:4px solid #d7d7d4;padding:18px 20px;color:var(--mute);cursor:pointer;transition:color .16s var(--ease-out),border-color .16s var(--ease-out),background-color .16s var(--ease-out)}
+.a-tab.on{color:var(--blue);border-color:var(--gold);background:var(--paper)}
+.a-panel{display:none}
+.a-panel.on{display:grid;gap:var(--s32);animation:a-in .5s var(--ease-reveal)}
+@keyframes a-in{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+html:not([data-motion="force"]) .a-panel.on{animation:none}
+.a-panel img{width:100%;aspect-ratio:16/8;object-fit:cover;border-radius:3px}
+.a-panel h3{font-size:var(--t32);margin-bottom:var(--s16)}
+.a-panel p{margin-bottom:var(--s16);max-width:70ch;font-size:var(--t20)}
+.a-why{background:var(--paper)}
+.a-why-photo{height:min(64vh,560px);overflow:hidden}
+.a-why-photo img{width:100%;height:124%;object-fit:cover;object-position:50% 38%}
+.a-why-in{display:grid;grid-template-columns:1fr 1.2fr;gap:var(--s96);padding:var(--s96) 0 var(--s128)}
+.a-why-side{position:sticky;top:calc(var(--bar) + var(--head) + 32px);align-self:start}
+.a-why-cta{margin-top:var(--s32);display:flex;gap:var(--s24);align-items:center;flex-wrap:wrap}
+.a-tel{font:600 var(--t17) Montserrat,sans-serif;text-underline-offset:5px}
+.a-why-text p{font-size:var(--t20);margin-bottom:var(--s24)}
+.a-offices{padding:var(--s96) 0;background:#fff}
+.a-offices h2{margin-bottom:var(--s48)}
+.a-offices-row{display:grid;grid-template-columns:1fr 1fr;gap:var(--s32)}
+.a-office{border:1px solid #c9cdd0;padding:var(--s48);display:grid;gap:8px;justify-items:start}
+.a-city{font:600 var(--t60)/1 Montserrat,sans-serif;color:var(--blue);margin-bottom:var(--s16)}
+.a-office .btn{margin-top:var(--s16)}
+.a-bio{background:var(--ink);color:#e8edf0;padding:var(--s128) 0}
+.a-bio-in{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.4fr);gap:var(--s96);align-items:start}
+.a-bio-photo{position:sticky;top:calc(var(--bar) + var(--head) + 32px)}
+.a-bio-photo img{border-radius:3px;width:100%}
+.a-bio h2{color:#fff;margin-bottom:var(--s48)}
+.a-bio h3{color:var(--gold-l);font-size:var(--t24);margin:var(--s32) 0 12px}
+.a-bio p{font-size:var(--t20)}
+.a-faq{background:var(--paper);padding:var(--s128) 0}
+.a-faq-in{display:grid;grid-template-columns:1fr 1.5fr;gap:var(--s96);align-items:start}
+.a-faq-in h2{position:sticky;top:calc(var(--bar) + var(--head) + 32px)}
+.a-close{background:var(--blue);color:#fff;padding:var(--s96) 0}
+.a-close-in{display:grid;grid-template-columns:1fr 1fr;gap:var(--s64);align-items:center}
+.a-close h2{color:#fff}
+.a-close p{font-size:var(--t20)}
+.a-close-cta{margin-top:var(--s32);display:flex;gap:var(--s24);align-items:center;flex-wrap:wrap}
+.a-foot{background:var(--ink);color:#dfe6ea}
+@media(max-width:1080px){
+  .a-hero{grid-template-columns:1fr 1fr}.a-hero-form{grid-column:1/-1;padding:var(--s48) 24px}
+  .a-hero-copy{padding:var(--s64) 24px}
+}
+@media(max-width:760px){
+  .dA{--head:68px}.dA h2{font-size:var(--t32)}
+  .a-head .btn{display:none}.a-phone{margin-left:auto;font-size:var(--t15)}.logo img{height:44px}
+  .a-hero{grid-template-columns:1fr;min-height:0}.a-hero-photo{height:320px}.a-plaque{bottom:16px}
+  .a-stats-in{grid-template-columns:1fr}.a-stat-n{font-size:var(--t60)}
+  .a-pains,.a-areas,.a-bio,.a-faq{padding:var(--s64) 0}
+  .a-pains-top,.a-why-in,.a-bio-in,.a-faq-in,.a-close-in,.a-offices-row,.a-steps-row,.a-file{grid-template-columns:1fr;gap:var(--s32)}
+  .a-pains-top{margin-bottom:var(--s48)}
+  .a-aisle{gap:var(--s48)}.a-aisle-line{left:7px}
+  .a-row{grid-template-columns:16px 1fr;gap:12px 16px}.a-row-head{display:none}
+  .a-q{text-align:left;font-size:var(--t24);grid-column:2}.a-dot{grid-row:1;grid-column:1;align-self:start;margin-top:8px}.a-a{grid-column:2;padding:var(--s24);font-size:var(--t17)}
+  .a-tabs{display:none}.a-panel{display:grid;gap:var(--s24);margin-bottom:var(--s48)}.a-panel h3{font-size:var(--t24)}.a-panel p{font-size:var(--t17)}
+  .a-why-side,.a-bio-photo,.a-faq-in h2{position:static}.a-why-in{padding:var(--s48) 0 var(--s64)}.a-why-photo{height:260px}
+  .a-office{padding:var(--s32)}.a-city{font-size:var(--t44)}
+  .a-why-text p,.a-bio p,.a-close p{font-size:var(--t17)}
+}
+
+/* ═════════ B: Since 1989 ═════════ */
+.dB{background:#0a2433;color:#e9e6df;font-family:Montserrat,sans-serif;font-size:var(--t17)}
+.dB h1,.dB h2,.dB h3,.b-q,.b-city,.b-year,.b-stat-n{font-family:Fraunces,Georgia,serif;font-weight:500;line-height:1.08}
+.dB h2{font-size:var(--t60);color:#fff}
+.dB h3{font-size:var(--t24);color:#fff}
+.b-head{position:absolute;top:var(--bar);left:0;right:0;z-index:20;display:flex;align-items:center;gap:var(--s32);padding:20px max(24px,calc((100vw - 1360px)/2));color:#fff;background:#0a2433}
+.b-head .nav{margin-left:auto}
+.b-head .nav .has ul{background:#fff}
+.b-phone{font-weight:600;text-decoration:none;white-space:nowrap}
+.b-hero{position:relative;height:calc(100vh - var(--bar));min-height:640px;padding-top:92px}
+.b-hero-img{position:absolute;inset:92px 0 0 0;overflow:hidden}
+.b-hero-img img{width:100%;height:100%;object-fit:cover;object-position:60% 42%;transform-origin:62% 55%}
+.b-hero-panel{position:absolute;left:max(24px,calc((100vw - 1360px)/2));bottom:-72px;width:min(640px,100% - 48px);background:#0a2433;padding:var(--s48);z-index:2;border-top:3px solid var(--gold-l)}
+.b-hero-panel h1{font-size:clamp(34px,3.6vw,52px);color:#fff}
+.b-sub{font-size:var(--t20);color:var(--gold-l);margin-top:var(--s16)}
+.b-hero-cta{margin-top:var(--s32);display:flex;gap:var(--s24);align-items:center;flex-wrap:wrap}
+.b-tel{font-weight:600;text-underline-offset:5px}
+.b-line{margin-top:var(--s24);font-size:var(--t15)}
+.b-story{padding:calc(var(--s128) + 72px) 0 var(--s96)}
+.b-story-h{max-width:16ch;margin-bottom:var(--s96)}
+.b-story-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:var(--s96)}
+.b-year-pin{position:sticky;top:calc(var(--bar) + 18vh);align-self:start}
+.b-year{font-size:clamp(120px,17vw,260px);color:var(--gold-l);line-height:.9;font-variant-numeric:tabular-nums}
+.b-year span{display:inline-block;transition:opacity .25s var(--ease-out),transform .35s var(--ease-out)}
+.b-year span.sw{opacity:0;transform:translateY(24px)}
+html:not([data-motion="force"]) .b-year span.sw{transform:none}
+.b-year-cap{margin-top:var(--s24);font-weight:500;color:#fff}
+.b-chap{margin-bottom:var(--s32);color:var(--gold-l)!important}
+.b-yr{min-height:46vh;font-size:var(--t24);line-height:1.5;opacity:.35;transition:opacity .4s var(--ease-out)}
+.b-yr.on{opacity:1}
+.b-yr-m{display:none}
+.b-float{margin:0 0 var(--s96) 12%;box-shadow:0 4px 10px #061a26,0 30px 60px #04121b}
+.b-float img{border-radius:6px;width:100%}
+.b-stats{padding:var(--s96) 0;overflow:hidden}
+.b-stat{white-space:nowrap;font-size:var(--t24);padding-left:max(24px,calc((100vw - 1240px)/2));margin-bottom:var(--s16);will-change:transform}
+.b-stat:nth-child(2){text-align:right;padding-right:max(24px,calc((100vw - 1240px)/2))}
+.b-stat-n{font-size:clamp(64px,11vw,168px);color:#fff}
+.b-stat-s{font-weight:500;color:var(--gold-l)}
+.b-stats .note{color:#a9b6bd}
+.b-why{padding:var(--s96) 0 var(--s128)}
+.b-why-in{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:var(--s96);align-items:start}
+.b-why-text h2{margin-bottom:var(--s48)}
+.b-why-text p{margin-bottom:var(--s24);font-size:var(--t20);line-height:1.6}
+.b-why-photo{margin-top:-180px;box-shadow:0 4px 10px #061a26,0 30px 60px #04121b;position:sticky;top:calc(var(--bar) + 40px)}
+.b-why-photo img{border-radius:6px;width:100%}
+.b-pains{padding:var(--s96) 0 var(--s128);background:#0f3549}
+.b-pains h2{max-width:18ch}
+.b-pain-intro{font-size:var(--t24);max-width:40ch;margin:var(--s32) 0 var(--s96);color:var(--gold-l)}
+.b-pain{max-width:880px;margin-bottom:var(--s96)}
+.b-pain-r{margin-left:auto}
+.b-q{font-size:var(--t44);color:#fff}
+.b-a{font-size:var(--t20);margin-top:var(--s24);max-width:56ch}
+.b-areas{background:#f3efe6;color:var(--text);padding:var(--s128) 0}
+.b-areas h2{color:var(--ink);max-width:16ch}
+.b-areas-top{display:flex;justify-content:space-between;align-items:end;gap:var(--s32);margin-bottom:var(--s64);flex-wrap:wrap}
+.b-rail{display:flex;gap:var(--s32);overflow-x:auto;scroll-snap-type:x proximity;scroll-padding-left:max(24px,calc((100vw - 1240px)/2));padding:8px max(24px,calc((100vw - 1240px)/2)) var(--s64);scrollbar-width:thin}
+.b-card{flex:0 0 min(440px,82vw);scroll-snap-align:start;background:#fff;border-radius:6px;box-shadow:0 3px 8px #d6cfbe,0 18px 40px #c9c2b1;display:flex;flex-direction:column;overflow:hidden}
+.b-card img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.b-card-b{padding:var(--s32);display:flex;flex-direction:column;gap:var(--s16);flex:1}
+.b-card-b h3{color:var(--ink);font-size:var(--t32)}
+.b-card-b p{font-size:var(--t17);font-family:"Source Sans 3",sans-serif}
+.b-card-b .btn{margin-top:auto;align-self:flex-start}
+.b-steps{padding:var(--s128) 0}
+.b-steps h2{margin-bottom:var(--s96)}
+.b-steps-row{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s48)}
+.b-road{position:absolute;left:0;right:0;top:9px;height:2px;background:var(--gold-l);transform-origin:left;transform:scaleX(0)}
+.b-stop{display:block;width:20px;height:20px;border-radius:50%;background:var(--gold-l);margin-bottom:var(--s32);position:relative;box-shadow:0 0 0 8px #0a2433}
+.b-step h3{font-size:var(--t32);margin-bottom:var(--s16)}
+.b-form{padding:var(--s96) 0;background:#0f3549}
+.b-form-in{display:grid;grid-template-columns:1fr 1fr;gap:var(--s96);align-items:center}
+.b-form-in>div>p{margin-top:var(--s24);font-size:var(--t20)}
+.b-form-tel a{font:500 var(--t60)/1 Fraunces,serif;color:var(--gold-l);text-decoration:none}
+.b-form-card{background:#f3efe6;color:var(--text);padding:var(--s48);border-radius:6px;box-shadow:0 4px 10px #061a26,0 30px 60px #04121b;font-family:"Source Sans 3",sans-serif}
+.b-offices{padding:var(--s128) 0}
+.b-offices h2{margin-bottom:var(--s64)}
+.b-office{display:grid;grid-template-columns:auto 1fr;gap:var(--s64);align-items:end;margin-bottom:var(--s64)}
+.b-office-r{margin-left:18%}
+.b-city{font-size:clamp(72px,12vw,176px);color:var(--gold-l);line-height:.9}
+.b-office>div{display:grid;gap:8px;justify-items:start;padding-bottom:12px}
+.b-office .btn{margin-top:var(--s16)}
+.b-faq{padding:var(--s96) 0;background:#f3efe6;color:var(--text)}
+.b-faq h2{color:var(--ink);margin-bottom:var(--s48);max-width:16ch}
+.b-faq-list{max-width:900px;margin-left:auto}
+.b-faq .q summary{font-family:Fraunces,serif;font-weight:500;font-size:var(--t24)}
+.b-faq .q p{font-family:"Source Sans 3",sans-serif}
+.b-close{padding:var(--s128) 0 calc(var(--s128) + 40px)}
+.b-close h2{font-size:clamp(40px,6vw,84px);max-width:16ch}
+.b-close p{font-size:var(--t20);max-width:60ch;margin:var(--s32) 0}
+.b-foot{background:#071a26;color:#d9e0e4;padding-bottom:120px}
+.b-bar{position:fixed;left:0;right:0;bottom:0;z-index:60;background:#fff;color:var(--ink);display:none;align-items:center;gap:var(--s24);padding:12px max(24px,calc((100vw - 1360px)/2));border-top:3px solid var(--gold);transform:translateY(110%);transition:transform .35s var(--ease-out)}
+html[data-d="B"] .b-bar{display:flex}
+.b-bar.show{transform:none}
+.b-bar p{font-weight:600;margin-right:auto}
+.b-bar-tel{font-weight:700;color:var(--blue);text-decoration:none;white-space:nowrap}
+.b-bar .btn{padding:14px 20px;background:var(--blue);border-color:var(--blue);color:#fff}
+@media(max-width:860px){
+  .dB h2{font-size:var(--t44)}
+  .b-head{padding:12px 16px;gap:12px}.b-phone{margin-left:auto;font-size:var(--t15)}
+  .b-hero{height:auto;min-height:0;padding-top:76px}.b-hero-img{position:relative;inset:auto;height:46vh}
+  .b-hero-panel{position:relative;left:auto;bottom:auto;width:100%;padding:var(--s32) 24px}
+  .b-story{padding:var(--s64) 0}.b-story-h{margin-bottom:var(--s48)}
+  .b-story-grid{grid-template-columns:1fr;gap:var(--s24)}
+  .b-year-pin{position:sticky;top:var(--bar);background:#0a2433;z-index:3;padding:8px 0}.b-year{font-size:72px}.b-year-cap{display:none}
+  .b-yr{min-height:0;margin-bottom:var(--s48);font-size:var(--t20)}.b-float{margin:0 0 var(--s48)}
+  .b-stat{white-space:normal;padding-right:24px}.b-stat:nth-child(2){text-align:left}.b-stat-n{display:block}
+  .b-why-in,.b-form-in,.b-steps-row{grid-template-columns:1fr;gap:var(--s48)}
+  .b-why-photo{margin-top:0;position:static}.b-road{display:none}
+  .b-q{font-size:var(--t32)}.b-pain{margin-bottom:var(--s64)}
+  .b-areas,.b-steps,.b-offices,.b-close{padding:var(--s64) 0}.b-pains,.b-why{padding:var(--s64) 0}
+  .b-office,.b-office-r{grid-template-columns:1fr;gap:var(--s16);margin-left:0}
+  .b-form-tel a{font-size:var(--t44)}.b-form-card{padding:var(--s24)}
+  .b-bar p{display:none}.b-bar{justify-content:space-between;padding:10px 16px}
+  .b-close{padding-bottom:var(--s96)}
+}
+
+/* ═════════ C: Two Problems, One Firm ═════════ */
+.dC{background:#faf8f3;color:var(--text);font-family:"Source Serif 4",Georgia,serif;font-size:19px}
+.dC h1,.dC h2,.dC h3,.c-state,.c-stat-n,.c-city,.c-q,.c-word,.dC .btn,.dC .nav{font-family:Montserrat,sans-serif}
+.dC h2{font-size:var(--t60);font-weight:700;color:var(--blue);line-height:1.05}
+.dC h3{font-size:var(--t24);font-weight:600;color:var(--ink);line-height:1.2}
+.c-head{position:fixed;top:var(--bar);left:0;right:0;z-index:50;display:flex;align-items:center;gap:var(--s24);padding:12px max(24px,calc((100vw - 1360px)/2));background:#faf8f3;transition:transform .3s var(--ease-out);border-bottom:1px solid #dcd8cd}
+.c-head.hide{transform:translateY(-110%)}
+.c-head .nav{margin-left:auto;color:var(--ink)}
+.c-phone{font:600 var(--t17) Montserrat,sans-serif;color:var(--blue);text-decoration:none;white-space:nowrap}
+.c-head .btn{padding:14px 20px}
+.c-hero{padding:calc(76px + var(--s64)) 0 var(--s64);min-height:calc(100vh - var(--bar));display:flex;flex-direction:column;justify-content:center}
+.c-state{font-weight:700;font-size:clamp(52px,8.4vw,128px);line-height:.98;color:var(--blue);padding:0 max(24px,calc((100vw - 1360px)/2))}
+.c-ln{display:block;overflow:hidden;padding-bottom:.08em}
+.c-ln>span{display:inline-block;transform:translateY(105%);transition:transform .9s var(--ease-reveal)}
+.c-ln:nth-child(2)>span{transition-delay:.12s}.c-ln:nth-child(3)>span{transition-delay:.24s}
+.c-ln:nth-child(2){padding-left:6vw}.c-ln:nth-child(3){padding-left:12vw}
+.c-ln-g{color:var(--gold-d)}
+.dC.ready .c-ln>span{transform:none}
+html:not([data-motion="force"]) .c-ln>span{transform:none}
+.ridge{display:block;width:100%;height:clamp(70px,10vw,150px);margin-top:var(--s16)}
+.c-hero-row{display:grid;grid-template-columns:1.2fr 1fr auto;gap:var(--s64);align-items:end;width:min(1360px,100% - 48px);margin:var(--s32) auto 0}
+.c-hero-row h1{font-size:var(--t32);font-weight:600;color:var(--ink);line-height:1.15}
+.c-sub{margin-top:8px}
+.c-slogan{font:600 var(--t17) Montserrat,sans-serif;color:var(--gold-d);margin-top:4px}
+.c-hero-cta{display:flex;gap:var(--s24);align-items:center;flex-wrap:wrap}
+.c-tel{font:600 var(--t17) Montserrat,sans-serif;text-underline-offset:5px;color:var(--ink)}
+.c-stats{padding:var(--s96) 0;background:#fff}
+.c-stat{display:grid;grid-template-columns:auto minmax(0,1fr);gap:var(--s48);align-items:baseline;padding:var(--s16) 0}
+.c-stat:nth-of-type(2){grid-template-columns:minmax(0,1fr) auto}.c-stat:nth-of-type(2) .c-stat-l{text-align:right}.c-stat-l span{display:block;color:var(--gold-d)}
+.c-stat:nth-of-type(2) .c-stat-n{order:2;text-align:right}
+.c-stat-n{font-weight:700;font-size:clamp(56px,8.8vw,132px);line-height:1;color:var(--blue);white-space:nowrap}
+.c-stat-l{font:600 var(--t24) Montserrat,sans-serif;color:var(--ink)}
+.c-why{padding:var(--s128) 0}
+.c-why-in{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:var(--s96);align-items:start}
+.c-why-photo,.c-bio-photo{position:relative;position:sticky;top:calc(var(--bar) + 96px)}
+.c-why-photo{overflow:visible}
+.c-why-photo img,.c-bio-photo img{width:100%;border-radius:4px}
+.dC figcaption{position:absolute;left:-24px;bottom:var(--s32);background:var(--blue);color:#fff;font:600 var(--t15)/1.35 Montserrat,sans-serif;padding:16px 20px;max-width:300px}
+.c-why-text h2{margin-bottom:var(--s48)}
+.c-why-text p{margin-bottom:var(--s24)}
+.c-why-text .c-hero-cta{margin-top:var(--s32)}
+.c-pains{padding:var(--s96) 0 var(--s128);background:var(--grey)}
+.c-pains h2{color:var(--ink)}
+.c-pains-top{display:grid;grid-template-columns:1.4fr 1fr;gap:var(--s64);align-items:end;margin-bottom:var(--s64)}
+.c-pains-top p{font-size:var(--t24);color:var(--ink)}
+.c-card{position:sticky;top:calc(var(--bar) + 96px + var(--i)*28px);min-height:340px;padding:var(--s64);display:grid;grid-template-columns:1.2fr 1fr;gap:var(--s64);align-items:center;margin-bottom:var(--s32);border-radius:4px;box-shadow:0 -2px 6px #a9a9a7,0 -10px 30px #9a9a98}
+.c-card-0{background:#fff}.c-card-1{background:#faf8f3}.c-card-2{background:var(--blue);color:#fff}.c-card-3{background:var(--ink);color:#fff}
+.c-q{font-weight:600;font-size:var(--t44);line-height:1.12}
+.c-a{font-size:var(--t20)}
+.c-form{background:var(--blue);color:#fff;padding:var(--s96) 0}
+.c-form h2{color:#fff}
+.c-form-in{display:grid;grid-template-columns:1fr 1fr;gap:var(--s96);align-items:center}
+.c-form-in>div>p{margin-top:var(--s24)}
+.c-form-tel a{font:700 var(--t60)/1 Montserrat,sans-serif;color:#fff;text-decoration:none}
+.c-form-card{background:#fff;color:var(--text);padding:var(--s48);border-radius:4px;font-family:"Source Sans 3",sans-serif;font-size:var(--t17)}
+.c-areas{padding:var(--s128) 0}
+.c-areas h2{max-width:16ch;margin-bottom:var(--s64)}
+.c-area figure{position:relative;margin-bottom:var(--s48);overflow:visible}
+.c-area figure img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:4px}
+.c-area figure h3{position:absolute;left:var(--s24);right:var(--s48);bottom:-28px;background:#fff;padding:16px 20px;border-left:4px solid var(--gold)}
+.c-area p{margin-bottom:var(--s16)}
+.c-area .btn{margin-top:8px}
+.c-area-lead{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:var(--s64);align-items:center;margin-bottom:var(--s96)}
+.c-area-lead figure{overflow:hidden;margin:0;border-radius:4px}
+.c-area-lead figure img{aspect-ratio:16/11;height:auto;transform:scale(1.12)}
+.c-area-lead figure h3{font-size:var(--t32);bottom:var(--s24);right:auto;max-width:80%}
+.c-area-lead p{font-size:22px}
+.c-areas-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--s96) var(--s64)}
+.c-areas-grid .c-area:nth-child(even){margin-top:var(--s96)}
+.c-steps{background:#fff;padding:var(--s128) 0}
+.c-steps h2{margin-bottom:var(--s64)}
+.c-step{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:var(--s64);align-items:baseline;padding:var(--s32) 0}
+.c-step h3{font-size:var(--t44);font-weight:700;color:var(--ink);line-height:1.1}
+.c-step:nth-of-type(2){padding-left:8%}.c-step:nth-of-type(3){padding-left:16%}
+.c-bio{padding:var(--s128) 0}
+.c-bio-in{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:var(--s96);align-items:start}
+.c-bio-text h2{margin-bottom:var(--s32)}
+.c-bio-text h3{margin:var(--s48) 0 var(--s16);color:var(--gold-d)}
+.c-offices{background:var(--grey);padding:var(--s96) 0}
+.c-offices h2{color:var(--ink);margin-bottom:var(--s64)}
+.c-offices-row{display:grid;grid-template-columns:1fr 1fr;gap:var(--s64)}
+.c-office{display:grid;gap:8px;justify-items:start}
+.c-city{font-weight:700;font-size:clamp(56px,8vw,120px);line-height:1;color:var(--blue)}
+.c-office .btn{margin-top:var(--s16)}
+.c-faq{padding:var(--s128) 0;background:#fff}
+.c-faq-in{display:grid;grid-template-columns:1fr 1.4fr;gap:var(--s96);align-items:start}
+.c-faq-in h2{position:sticky;top:calc(var(--bar) + 96px);font-size:var(--t44)}
+.c-close{background:var(--ink);color:#fff;padding:0 0 var(--s128)}
+.c-close .ridge{margin:0 0 var(--s64)}
+.c-close h2{color:#fff;max-width:18ch}
+.c-close p{max-width:60ch;margin:var(--s32) 0;font-size:var(--t20)}
+.c-word{font-weight:700;font-size:11.4vw;line-height:.86;color:var(--blue);white-space:nowrap;text-align:center;padding-top:var(--s64);overflow:hidden}
+.c-foot{color:var(--text);background:#faf8f3}
+.c-foot .f-legal{border-color:#bdb8aa}
+@media(max-width:860px){
+  .dC{font-size:var(--t17)}.dC h2{font-size:var(--t32)}
+  .c-head{padding:8px 16px;gap:12px}.c-head .btn{display:none}.c-phone{margin-left:auto;font-size:var(--t15)}
+  .c-hero{min-height:0;padding-top:calc(68px + var(--s48))}
+  .c-ln:nth-child(2){padding-left:0}.c-ln:nth-child(3){padding-left:0}
+  .c-hero-row,.c-why-in,.c-pains-top,.c-form-in,.c-area-lead,.c-areas-grid,.c-step,.c-bio-in,.c-offices-row,.c-faq-in,.c-stat,.c-stat:nth-of-type(2){grid-template-columns:1fr;gap:var(--s24)}
+  .c-hero-row h1{font-size:var(--t24)}
+  .c-stat:nth-of-type(2) .c-stat-n{order:0;text-align:left}.c-stat:nth-of-type(2) .c-stat-l{text-align:left}.c-stat-n{white-space:normal}.c-stat-l{font-size:var(--t17)}
+  .c-why,.c-areas,.c-steps,.c-bio,.c-faq{padding:var(--s64) 0}.c-pains{padding:var(--s64) 0}
+  .c-why-photo,.c-bio-photo{position:relative;top:auto}.c-faq-in h2{position:static}
+  .dC figcaption{left:0;bottom:16px;max-width:86%}
+  .c-card{grid-template-columns:1fr;padding:var(--s32) 24px;gap:var(--s16);min-height:0;top:calc(var(--bar) + 76px + var(--i)*14px)}.c-q{font-size:var(--t24)}.c-a{font-size:var(--t17)}
+  .c-areas-grid .c-area:nth-child(even){margin-top:0}.c-area-lead{margin-bottom:var(--s64)}.c-area-lead p{font-size:var(--t17)}.c-area-lead figure h3{font-size:var(--t20)}
+  .c-area figure h3{left:12px;right:12px;font-size:var(--t20)}
+  .c-step,.c-step:nth-of-type(2),.c-step:nth-of-type(3){padding-left:0}.c-step h3{font-size:var(--t24)}
+  .c-form-tel a{font-size:var(--t44)}.c-form-card{padding:var(--s24)}
+  .c-close{padding-bottom:var(--s64)}
+}
+
+/* ===== round 1b: critic fixes ===== */
+.nw,a[href^="tel"]{white-space:nowrap}
+.f-h2{margin-top:16px}
+/* A */
+.a-hero-btn{display:none;margin-top:var(--s24)}
+.a-stats-in{grid-template-columns:auto auto auto;justify-content:space-between}
+.a-stat-n{font-size:clamp(40px,4.4vw,68px);white-space:nowrap}
+.a-pains{overflow:hidden;padding-bottom:0}
+.a-pains-top{margin-bottom:var(--s64)}
+.a-aisle{gap:var(--s64);padding:var(--s64) 0 var(--s96)}
+.a-aisle::before{content:"";position:absolute;top:0;bottom:0;right:50%;width:50vw;background:var(--ink)}
+.a-row{position:relative}.a-gap{width:24px}
+.a-q{color:#fff}.a-row-head p:first-child{color:var(--gold-l)}
+.a-a{background:none;border:0;padding:0;font-size:var(--t24);line-height:1.45;color:var(--ink)}
+.a-steps h2{max-width:none;margin-bottom:var(--s48)}
+.a-step{border:0;padding:0 var(--s32) 0 0}.a-step h3{font-size:var(--t24)}
+.a-file{grid-template-columns:1fr;gap:var(--s48)}
+.a-tabs{position:static;display:flex;flex-wrap:wrap;border-bottom:2px solid #d7d7d4}
+.a-tab{border-left:0;border-bottom:4px solid transparent;margin-bottom:-2px;padding:16px 24px;font-size:var(--t20)}
+.a-tab.on{background:none;border-color:var(--gold)}
+.a-panel.on{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:var(--s64);align-items:center}
+.a-panel img{aspect-ratio:4/3}
+.a-why-in{grid-template-columns:1fr;gap:var(--s48)}
+.a-why-side{position:static;display:flex;justify-content:space-between;align-items:end;gap:var(--s48);flex-wrap:wrap}
+.a-why-side h2{max-width:22ch}.a-why-cta{margin-top:0}
+.a-why-text{columns:2;column-gap:var(--s64)}.a-why-text p{break-inside:avoid}
+/* B */
+.b-yr{min-height:30vh;opacity:.64}.b-yr.on{opacity:1}
+/* C */
+.c-hero{padding-top:calc(76px + var(--s32))}
+.c-hero-top{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,.9fr);gap:var(--s48);align-items:end;padding:0 max(24px,calc((100vw - 1360px)/2))}
+.c-hero-top .c-state{padding:0;font-size:clamp(52px,7vw,108px)}
+.c-hero-top .c-ln:nth-child(n){padding-left:0}
+.c-hero-fig{margin:0;overflow:hidden;border-radius:4px;aspect-ratio:5/4}
+.c-hero-fig img{width:100%;height:100%;object-fit:cover;object-position:70% 30%}
+.c-pre{font-size:.2em;font-weight:600;color:var(--gold-d);letter-spacing:0}
+.c-close-in{display:grid;grid-template-columns:1fr 1fr;gap:var(--s64);align-items:end}
+.c-close-in p:first-child{margin-top:0}
+.c-word{line-height:1.2;padding-bottom:.1em}
+@media(max-width:1080px){.a-hero-btn{display:block}}
+@media(max-width:860px){
+  .c-hero-top{grid-template-columns:1fr;gap:var(--s24)}.c-hero-fig{aspect-ratio:16/10}
+  .c-close-in{grid-template-columns:1fr;gap:var(--s24)}
+  .c-area figure h3,.c-area-lead figure h3{position:static;max-width:none;margin-top:12px}
+  .c-area figure{margin-bottom:var(--s16)}
+}
+@media(max-width:760px){
+  .a-stats-in{grid-template-columns:1fr}
+  .a-aisle::before{display:none}.a-aisle{padding:0 0 var(--s64);gap:var(--s32)}
+  .a-row{grid-template-columns:1fr;gap:0}.a-gap{display:none}
+  .a-q{grid-column:1;background:var(--ink);padding:var(--s24)}.a-a{grid-column:1;padding:var(--s24) 0 0;font-size:var(--t17)}
+  .a-tabs{display:flex;flex-wrap:nowrap;overflow-x:auto}.a-tab{white-space:nowrap;font-size:var(--t17);padding:14px 16px}
+  .a-panel{display:none;margin-bottom:0}.a-panel.on{display:grid;grid-template-columns:1fr;gap:var(--s24)}
+  .a-why-text{columns:1}.a-why-side{display:block}.a-why-cta{margin-top:var(--s24)}
+  .a-step{padding:0}
+}
+.c-stat,.c-stat:nth-of-type(2){display:flex;align-items:baseline;gap:var(--s32)}
+.c-stat:nth-of-type(2){justify-content:flex-end}
+.c-stat:nth-of-type(2) .c-stat-n{order:0}.c-stat:nth-of-type(2) .c-stat-l{text-align:left}
+@media(max-width:860px){.c-stat,.c-stat:nth-of-type(2){display:block}.c-pre{display:block;font-size:17px;margin-bottom:4px}}
+
+/* ===== single homepage ===== */
+.a-lang{display:flex;border:1px solid #c9cdd0;border-radius:3px;overflow:hidden}
+.a-lang button{font:600 14px/1 Montserrat,sans-serif;padding:9px 10px;background:#fff;border:0;color:var(--mute);cursor:pointer}
+.a-lang button.on{background:var(--ink);color:#fff}
+.a-es{background:var(--gold-l);color:var(--ink);font:600 var(--t15)/1.3 Montserrat,sans-serif;text-align:center;padding:10px 16px}
+.a-es a{text-underline-offset:4px}
+.a-hero-copy{position:relative;padding-bottom:calc(var(--s64) + 90px)}
+.a-hero-copy .ridge{position:absolute;left:0;right:0;bottom:0;margin:0;height:90px;opacity:1!important;transform:none!important}
+.dA .a-hero-copy>*{opacity:0;transform:translateY(22px)}
+.dA.ready .a-hero-copy>*{opacity:1;transform:none;transition:opacity .7s var(--ease-out),transform .7s var(--ease-out)}
+.dA.ready .a-hero-copy>:nth-child(2){transition-delay:.1s}.dA.ready .a-hero-copy>:nth-child(3){transition-delay:.18s}.dA.ready .a-hero-copy>:nth-child(4){transition-delay:.26s}.dA.ready .a-hero-copy>:nth-child(n+5){transition-delay:.34s}
+html:not([data-motion="force"]) .dA .a-hero-copy>*{opacity:1;transform:none;transition:none}
+.dA .a-hero-form{opacity:0;transform:translateX(28px)}
+.dA.ready .a-hero-form{opacity:1;transform:none;transition:opacity .8s var(--ease-out) .25s,transform .8s var(--ease-out) .25s}
+html:not([data-motion="force"]) .dA .a-hero-form{opacity:1;transform:none;transition:none}
+.a-story{background:var(--ink);color:#e8edf0;padding:var(--s128) 0 var(--s96)}
+.a-story h2{color:#fff}.a-story .b-year{font-weight:600;font-family:Montserrat,sans-serif}
+.a-story .b-year-pin{top:calc(var(--bar) + var(--head) + 12vh)}
+.a-talk{position:fixed;right:24px;bottom:24px;z-index:60;display:grid;justify-items:end;gap:8px}
+.a-talk-btn{font:600 var(--t15)/1 Montserrat,sans-serif;background:var(--gold-l);color:var(--ink);border:0;border-radius:3px;padding:16px 22px;cursor:pointer;box-shadow:0 2px 6px #0d2a3c,0 12px 28px #0d2a3c}
+.a-talk ul{list-style:none;margin:0;padding:8px;background:#fff;border-radius:4px;box-shadow:0 2px 6px #8a959c,0 16px 36px #8a959c;min-width:240px}
+.a-talk li a{display:block;padding:12px 14px;font:600 var(--t15)/1.2 Montserrat,sans-serif;color:var(--ink);text-decoration:none;border-radius:3px}
+.a-dock{display:none}
+@media(hover:hover) and (pointer:fine){.a-talk li a:hover{background:var(--paper);color:var(--blue)}}
+@media(max-width:760px){
+  .a-phone{display:none}.a-lang{margin-left:auto}
+  .a-talk{display:none}
+  .a-dock{display:grid;grid-template-columns:1fr 1fr 1.4fr;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--ink);box-shadow:0 -2px 6px #071a26,0 -10px 24px #071a26}
+  .a-dock a{font:600 var(--t15)/1 Montserrat,sans-serif;color:#fff;text-decoration:none;text-align:center;padding:18px 6px}
+  .a-dock .a-dock-cta{background:var(--gold-l);color:var(--ink)}
+  .a-foot{padding-bottom:64px}
+  .a-story{padding:var(--s64) 0}.a-story .b-year-pin{top:calc(var(--bar) + var(--head));background:var(--ink)}
+  .a-hero-copy{padding-bottom:calc(var(--s48) + 60px)}.a-hero-copy .ridge{height:60px}
+}
+.a-story .b-year{font-size:clamp(96px,11.5vw,180px)}
+.a-talk{opacity:0;pointer-events:none;transition:opacity .25s var(--ease-out)}
+.a-talk.show{opacity:1;pointer-events:auto}
+@media(max-width:760px){.a-story .b-year{font-size:64px}}
+
+/* ===== round 3: new hero, photos, no text-link CTAs ===== */
+.a-hero.a-hero2{position:relative;display:block;overflow:hidden;min-height:calc(100vh - var(--bar) - var(--head));background:var(--ink)}
+.a-hero-bg{position:absolute;inset:0}
+.a-hero-bg img{width:100%;height:100%;object-fit:cover;object-position:46% 30%;transform-origin:55% 60%}
+.a-hero-in{position:relative;display:grid;grid-template-columns:minmax(0,560px) minmax(0,1fr) minmax(0,400px);align-items:end;min-height:calc(100vh - var(--bar) - var(--head));padding:var(--s64) max(24px,calc((100vw - 1360px)/2)) var(--s48)}
+.a-hero2 .a-hero-copy{grid-column:1;padding:var(--s48);border-top:4px solid var(--gold-l);display:block}
+.a-hero2 .a-hero-copy h1{font-size:clamp(34px,3.3vw,50px)}
+.a-hero2 .a-sub{font-size:var(--t20)}
+.a-hero2 .a-call{margin-top:var(--s24)}
+.a-hero2 .a-call a{text-decoration:none;font-size:var(--t32)}
+.a-hero2 .a-hero-btn{display:block;margin-top:var(--s24)}
+.a-hero2 .a-slogan{margin-top:var(--s32)}
+.a-hero2 .a-hero-form{grid-column:3;padding:var(--s32);background:#fff;border-radius:4px;box-shadow:0 4px 10px #0d2a3c,0 26px 60px #0d2a3c;display:block}
+.a-hero2 .a-hero-form textarea{min-height:72px;height:72px}
+.a-hero2 .a-hero-form h2{font-size:var(--t20)}
+.a-steps2 .a-steps-in{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:var(--s96);align-items:center}
+.a-steps-list{display:grid;gap:var(--s32)}
+.a-steps2 .a-step{padding:0 0 0 var(--s32);border-left:2px solid var(--gold-l)}
+.a-steps-fig{margin:0;overflow:hidden;border-radius:4px;aspect-ratio:16/11}
+.a-steps-fig img{width:100%;height:112%;object-fit:cover}
+.a-lead{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:var(--s64);align-items:center;margin-bottom:var(--s96)}
+.a-lead figure,.a-card figure{margin:0;overflow:hidden;border-radius:4px}
+.a-lead img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .6s var(--ease-out)}
+.a-lead h3{font-size:var(--t32);margin-bottom:var(--s16)}.a-lead p{font-size:var(--t20);margin-bottom:var(--s16)}
+.a-areas-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--s64) var(--s48)}
+.a-card figure{margin-bottom:var(--s24)}
+.a-card img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:transform .6s var(--ease-out)}
+.a-card h3{font-size:var(--t24);margin-bottom:12px}.a-card p{margin-bottom:var(--s16)}
+.a-why2 .a-why-in{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:var(--s96);padding:var(--s128) 0;align-items:start}
+.a-why-fig{position:sticky;top:calc(var(--bar) + var(--head) + 32px);margin:0;overflow:hidden;border-radius:4px;aspect-ratio:4/5}
+.a-why-fig img{width:100%;height:110%;object-fit:cover;object-position:72% 20%}
+.a-why2 .a-why-text{columns:1}.a-why2 .a-why-text h2{margin-bottom:var(--s48)}.a-why2 .a-why-cta{margin-top:var(--s32)}
+.a-offices-in{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:var(--s64);align-items:stretch}
+.a-office-fig{margin:0;overflow:hidden;border-radius:4px}.a-office-fig img{width:100%;height:100%;object-fit:cover}
+.a-offices-list{display:grid;gap:var(--s24)}
+.a-offices-in .a-office{padding:var(--s32)}.a-offices-in .a-city{font-size:var(--t44)}
+.a-close.a-close2{display:grid;grid-template-columns:1fr 1fr;padding:0}
+.a-close-fig{margin:0;overflow:hidden}.a-close-fig img{width:100%;height:100%;object-fit:cover;min-height:420px}
+.a-close-body{padding:var(--s96) max(24px,calc((100vw - 1360px)/2)) var(--s96) var(--s96)}
+.a-close-body p{margin-top:var(--s24)}
+.a-close-tel{font:600 var(--t24) Montserrat,sans-serif;color:#fff}
+@media(hover:hover) and (pointer:fine){.a-lead:hover img,.a-card:hover img{transform:scale(1.04)}}
+@media(max-width:1180px){
+  .a-hero.a-hero2,.a-hero-in{min-height:0}
+  .a-hero-bg{position:relative;height:44vh;inset:auto}
+  .a-hero-in{grid-template-columns:1fr;padding:0}
+  .a-hero2 .a-hero-copy,.a-hero2 .a-hero-form{grid-column:1;border-radius:0;box-shadow:none}
+  .a-hero2 .a-hero-copy{padding:var(--s48) 24px}.a-hero2 .a-hero-form{padding:var(--s48) 24px;background:var(--paper)}
+}
+@media(max-width:860px){
+  .a-steps2 .a-steps-in,.a-lead,.a-areas-grid,.a-why2 .a-why-in,.a-offices-in,.a-close.a-close2{grid-template-columns:1fr;gap:var(--s32)}
+  .a-why2 .a-why-in{padding:var(--s64) 0}.a-why-fig{position:relative;top:auto;aspect-ratio:4/3}
+  .a-lead{margin-bottom:var(--s48)}.a-lead h3{font-size:var(--t24)}.a-lead p{font-size:var(--t17)}
+  .a-close.a-close2{gap:0}.a-close-fig img{min-height:240px}.a-close-body{padding:var(--s64) 24px}
+  .a-hero2 .a-call a{font-size:var(--t24)}
+}
+@media(max-width:760px){.a-hero2 .a-hero-btn{display:none}}
+
+/* ===== round 4 ===== */
+.a-pains.a-pains2{padding:0;overflow:visible;overflow-x:clip;background:var(--paper)}
+.a-pains2-in{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr)}
+.a-pains-side{background:var(--ink);color:#fff;padding:var(--s128) var(--s96) var(--s128) max(24px,calc((100vw - 1360px)/2))}
+.a-pains-stick{position:sticky;top:calc(var(--bar) + var(--head) + 64px)}
+.a-pains-side h2{color:#fff;font-size:clamp(34px,3.4vw,52px)}
+.a-pains-side p{font-size:var(--t24);line-height:1.45;color:var(--gold-l);margin-top:var(--s32)}
+.a-pains-list{display:grid;gap:var(--s64);padding:var(--s128) max(24px,calc((100vw - 1360px)/2)) var(--s128) 0}
+.a-q2{background:var(--blue);color:#fff;font:500 var(--t24)/1.3 Montserrat,sans-serif;padding:var(--s32) var(--s48);margin:0 var(--s64) 0 -56px;border-left:4px solid var(--gold-l);box-shadow:0 3px 8px #b9b4a8,0 18px 40px #cfcabd}
+.a-a2{font-size:var(--t24);line-height:1.45;color:var(--ink);padding:var(--s24) 0 0 var(--s48)}
+.a-steps.a-steps3{padding:0}
+.a-steps3-in{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.a-steps3-body{padding:var(--s128) var(--s96) var(--s128) max(24px,calc((100vw - 1360px)/2))}
+.a-steps3 .a-steps-list{position:relative;display:grid;gap:var(--s48);margin-top:var(--s64);padding-left:var(--s48)}
+.a-steps3 .a-steps-list::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:#2c4a5c}
+.a-steps-line2{position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--gold-l);transform-origin:top;transform:scaleY(0)}
+html:not([data-motion="force"]) .a-steps-line2{transform:none!important}
+.a-steps3 .a-step{border:0;padding:0}
+.a-steps3 .a-step h3{font-size:var(--t32);line-height:1.2}.a-steps3 .a-step p{font-size:var(--t20)}
+.a-steps-btn{margin-top:var(--s64)}
+.a-steps-fig3{margin:0;overflow:hidden;min-height:620px}
+.a-steps-fig3 img{width:100%;height:112%;object-fit:cover;object-position:60% 50%}
+.a-lead{align-items:stretch}
+.a-lead figure{display:flex}.a-lead img{aspect-ratio:auto;height:100%;min-height:520px}
+.a-lead h2{margin-bottom:var(--s48)}
+.a-lead h3{color:var(--blue)}
+.a-lead>div{align-self:center}
+.a-card{display:flex;flex-direction:column;align-items:flex-start}
+.a-card figure{width:100%}
+.a-card .btn{margin-top:auto}
+.a-card p:last-of-type{margin-bottom:var(--s32)}
+.a-story.a-story2{padding-top:0}
+.a-story-band{position:relative;height:440px;overflow:hidden;margin-bottom:var(--s96)}
+.a-story-band img{position:absolute;inset:0;width:100%;height:126%;object-fit:cover}
+.a-story-band h2{position:absolute;left:max(24px,calc((100vw - 1240px)/2));bottom:0;margin:0;background:var(--ink);padding:var(--s48) var(--s64) var(--s16) 0;border-top:4px solid var(--gold-l);max-width:none;box-shadow:-100vw 0 0 var(--ink)}
+.a-story2 .b-year-pin{top:calc(var(--bar) + var(--head) + 24px)}
+.a-story2 .b-year{font-size:clamp(96px,10vw,160px)}
+.a-rail{display:flex;flex-wrap:wrap;gap:8px var(--s24);margin:var(--s24) 0 var(--s32);font:600 var(--t17)/1 Montserrat,sans-serif;color:#8ea3b0}
+.a-rail span{transition:color .3s var(--ease-out)}.a-rail .on{color:var(--gold-l)}
+.a-story-fig{margin:0;overflow:hidden;border-radius:4px;max-width:460px;aspect-ratio:4/3;box-shadow:0 4px 10px #061a26,0 30px 60px #04121b}
+.a-story-fig img{width:100%;height:100%;object-fit:cover;object-position:50% 34%}
+.a-story2 .b-year-cap{margin-top:var(--s24)}
+@media(max-width:860px){
+  .a-pains2-in,.a-steps3-in{grid-template-columns:1fr}
+  .a-pains-side{padding:var(--s64) 24px}.a-pains-stick{position:static}.a-pains-side p{font-size:var(--t20)}
+  .a-pains-list{padding:var(--s48) 24px var(--s64);gap:var(--s48)}
+  .a-q2{margin:0;padding:var(--s24)}.a-a2{padding:var(--s16) 0 0;font-size:var(--t17)}
+  .a-steps3-body{padding:var(--s64) 24px}.a-steps3 .a-step h3{font-size:var(--t24)}.a-steps3 .a-step p{font-size:var(--t17)}
+  .a-steps3 .a-steps-list{padding-left:var(--s24);margin-top:var(--s32)}.a-steps-btn{margin-top:var(--s32)}
+  .a-steps-fig3{min-height:0;aspect-ratio:4/3}
+  .a-lead img{min-height:0;aspect-ratio:4/3;height:auto}.a-lead h2{margin-bottom:var(--s24)}
+  .a-story-band{height:260px;margin-bottom:var(--s48)}.a-story-band h2{left:24px;padding:var(--s24) var(--s24) 8px 0;font-size:var(--t32)}
+  .a-story2 .b-year-pin{position:static;padding:0;background:none}
+  .a-story2 .b-year,.a-rail{display:none}
+  .a-story-fig{max-width:none;margin-bottom:var(--s16)}
+  .a-story2 .b-yr-m{display:block;font:600 var(--t24) Montserrat,sans-serif;color:var(--gold-l);margin-bottom:8px}
+  .a-story2 .b-yr{opacity:1}
+}
+
+/* ===== round 5: fixes + three banner options ===== */
+.a-q2{box-shadow:0 3px 8px #091d29,0 18px 40px #0b2331}
+.a-story-band h2{left:0;padding-left:max(24px,calc((100vw - 1240px)/2));box-shadow:none}
+.a-steps3-in{align-items:center}
+.a-steps-fig3{min-height:0;aspect-ratio:16/10;margin:0 max(24px,calc((100vw - 1360px)/2)) 0 0;border-radius:4px;box-shadow:0 4px 10px #061a26,0 30px 60px #04121b}
+.a-steps-fig3 img{object-position:50% 50%}
+.a-hero-ridge{display:none}
+html[data-hero="1"] [data-hero-go="1"],html[data-hero="2"] [data-hero-go="2"],html[data-hero="3"] [data-hero-go="3"]{background:#c9a468;color:#101214;border-color:#c9a468}
+@media(min-width:1181px){
+  /* shared by banner 2 and 3: the form becomes one row under the banner */
+  html[data-hero="2"] .a-hero.a-hero2,html[data-hero="3"] .a-hero.a-hero2{min-height:0}
+  html[data-hero="2"] .a-hero-in,html[data-hero="3"] .a-hero-in{display:block;min-height:0}
+  html[data-hero="2"] form.lead,html[data-hero="3"] form.lead{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px 24px;align-items:end}
+  html[data-hero="2"] form.lead .f-req,html[data-hero="3"] form.lead .f-req{grid-column:1/-1}
+  html[data-hero="2"] form.lead .f-sms,html[data-hero="3"] form.lead .f-sms{grid-column:1/3;margin:0}
+  html[data-hero="2"] form.lead .f-check,html[data-hero="3"] form.lead .f-check{grid-column:3;margin:0}
+  html[data-hero="2"] form.lead button,html[data-hero="3"] form.lead button{grid-column:4}
+  html[data-hero="2"] form.lead .f-row,html[data-hero="3"] form.lead .f-row{margin:0}
+  html[data-hero="2"] .a-hero2 .a-hero-form textarea,html[data-hero="3"] .a-hero2 .a-hero-form textarea{height:52px;min-height:52px;resize:none}
+  html[data-hero="2"] .a-hero2 .a-hero-form h2,html[data-hero="3"] .a-hero2 .a-hero-form h2{font-size:var(--t32)}
+  /* banner 2: wide photo, headline bar across the bottom, form row below */
+  html[data-hero="2"] .a-hero.a-hero2{background:var(--paper)}
+  html[data-hero="2"] .a-hero-bg{position:relative;inset:auto;height:min(66vh,620px)}
+  html[data-hero="2"] .a-hero-bg img{object-position:50% 32%}
+  html[data-hero="2"] .a-hero-in{padding:0}
+  html[data-hero="2"] .a-hero2 .a-hero-copy{position:relative;width:min(1360px,100% - 48px);margin:-132px auto 0;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);column-gap:var(--s64);align-items:center;padding:var(--s48) var(--s64)}
+  html[data-hero="2"] .a-hero2 .a-hero-copy>*{grid-column:1}
+  html[data-hero="2"] .a-hero2 .a-call{grid-column:2;grid-row:1;text-align:right;margin:0}
+  html[data-hero="2"] .a-hero2 .a-hero-btn{grid-column:2;grid-row:2;text-align:right;margin:0}
+  html[data-hero="2"] .a-hero2 .a-slogan{margin-top:var(--s16)}
+  html[data-hero="2"] .a-hero2 .a-hero-form{width:min(1360px,100% - 48px);margin:0 auto;padding:var(--s48) 0 var(--s64);background:none;box-shadow:none;border-radius:0}
+  /* banner 3: navy ground, large type, framed photo, ridge line, form row */
+  html[data-hero="3"] .a-hero-bg{inset:auto;top:var(--s64);right:max(24px,calc((100vw - 1360px)/2));width:min(47vw,660px);height:540px;border-radius:6px;overflow:hidden;box-shadow:0 4px 10px #061a26,0 30px 60px #04121b}
+  html[data-hero="3"] .a-hero-bg img{object-position:66% 30%}
+  html[data-hero="3"] .a-hero-in{padding:var(--s64) max(24px,calc((100vw - 1360px)/2)) 0}
+  html[data-hero="3"] .a-hero2 .a-hero-copy{background:none;border:0;padding:0;max-width:min(46vw,640px);min-height:540px;display:flex;flex-direction:column;justify-content:center}
+  html[data-hero="3"] .a-hero2 .a-hero-copy h1{font-size:clamp(44px,4.5vw,68px);line-height:1.06}
+  html[data-hero="3"] .a-hero2 .a-sub{font-size:var(--t24)}
+  html[data-hero="3"] .a-hero-ridge{display:block;margin:0 calc(-1 * max(24px,calc((100vw - 1360px)/2)))}
+  html[data-hero="3"] .a-hero-ridge .ridge{height:110px;margin:0}
+  html[data-hero="3"] .a-hero2 .a-hero-form{padding:var(--s48);margin:0;border-radius:4px 4px 0 0;box-shadow:none}
+}
+
+/* ===== round 6: banner with the full photo of Miguel ===== */
+@media(min-width:1181px){
+  html[data-hero="4"] .a-hero.a-hero2{min-height:0;background:var(--ink)}
+  html[data-hero="4"] .a-hero-bg{inset:auto;top:0;right:0;width:60%;height:calc(100vh - var(--bar) - var(--head));min-height:660px}
+  html[data-hero="4"] .a-hero-bg img{object-position:74% 50%;transform-origin:70% 70%}
+  html[data-hero="4"] .a-hero-in{display:block;min-height:0;padding:0}
+  html[data-hero="4"] .a-hero2 .a-hero-copy{width:40%;height:calc(100vh - var(--bar) - var(--head));min-height:660px;background:var(--ink);border:0;border-right:4px solid var(--gold-l);padding:var(--s64) var(--s64) var(--s64) max(24px,calc((100vw - 1360px)/2));display:flex;flex-direction:column;justify-content:center}
+  html[data-hero="4"] .a-hero2 .a-hero-copy h1{font-size:clamp(40px,3.9vw,60px);line-height:1.08}
+  html[data-hero="4"] .a-hero2 .a-sub{font-size:var(--t24)}
+  html[data-hero="4"] .a-hero2 .a-hero-form{background:#fff;border-radius:0;box-shadow:none;margin:0;padding:var(--s48) max(24px,calc((100vw - 1360px)/2))}
+  html[data-hero="4"] .a-hero2 .a-hero-form h2{font-size:var(--t32)}
+  html[data-hero="4"] form.lead{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px 24px;align-items:end}
+  html[data-hero="4"] form.lead .f-req{grid-column:1/-1}
+  html[data-hero="4"] form.lead .f-sms{grid-column:1/3;margin:0}
+  html[data-hero="4"] form.lead .f-check{grid-column:3;margin:0}
+  html[data-hero="4"] form.lead button{grid-column:4}
+  html[data-hero="4"] form.lead .f-row{margin:0}
+  html[data-hero="4"] .a-hero2 .a-hero-form textarea{height:52px;min-height:52px;resize:none}
+}
+@media(max-width:1180px){
+  .a-hero-bg{height:auto;aspect-ratio:1800/1170}
+}
+
+/* ===== round 7: lead practice area + offices ===== */
+.a-areas{padding-top:0;overflow-x:clip;background:var(--paper)}
+.a-lead{margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:0;align-items:stretch}
+.a-lead figure{border-radius:0}
+.a-lead img{min-height:680px}
+.a-lead>div{position:relative;z-index:1;align-self:center;background:var(--ink);color:#fff;border-top:4px solid var(--gold-l);margin:var(--s64) max(24px,calc((100vw - 1360px)/2)) var(--s64) -120px;padding:var(--s64);box-shadow:0 4px 10px #b9b4a8,0 30px 60px #cfcabd}
+.a-lead h2{color:#fff;max-width:none;margin-bottom:var(--s32)}
+.a-lead h3{color:var(--gold-l)}
+.a-lead p{color:#fff}
+.a-lead .btn{margin-top:var(--s16)}
+.a-offices.a-offices2{padding:0;background:var(--ink);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.a-offices2 .a-office-fig{border-radius:0;min-height:720px}
+.a-offices2 .a-office-fig img{height:112%;object-position:40% 50%}
+.a-offices-body{padding:var(--s96) max(24px,calc((100vw - 1360px)/2)) var(--s96) var(--s96);align-self:center}
+.a-offices2 h2{color:#fff;margin-bottom:var(--s64)}
+.a-offices2 .a-offices-list{gap:var(--s48)}
+.a-offices2 .a-office{border:0;border-left:2px solid var(--gold-l);padding:0 0 0 var(--s32);color:#fff}
+.a-offices2 .a-city{color:var(--gold-l);font-size:var(--t60);margin-bottom:8px}
+.a-offices2 .a-office h3{color:#fff}
+.a-offices2 .a-office p{color:#fff}
+@media(max-width:860px){
+  .a-lead{grid-template-columns:1fr}
+  .a-lead img{min-height:0}
+  .a-lead>div{margin:-48px 24px 0;padding:var(--s32) 24px}
+  .a-offices.a-offices2{grid-template-columns:1fr}
+  .a-offices2 .a-office-fig{min-height:0;aspect-ratio:4/3}.a-offices2 .a-office-fig img{height:100%}
+  .a-offices-body{padding:var(--s64) 24px}.a-offices2 h2{margin-bottom:var(--s32)}
+  .a-offices2 .a-city{font-size:var(--t44)}
+}
+
+/* ===== round 8: FAQ ===== */
+.a-faq2 .a-faq-in{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:var(--s64);align-items:start}
+.a-faq-side{position:sticky;top:calc(var(--bar) + var(--head) + 32px);background:var(--ink);border-top:4px solid var(--gold-l);padding:var(--s64) var(--s48) var(--s48);overflow:hidden;box-shadow:0 4px 10px #b9b4a8,0 30px 60px #cfcabd}
+.a-faq2 .a-faq-side h2{position:static;color:#fff;font-size:var(--t44)}
+.a-faq-side .ridge{display:block;width:calc(100% + 2 * var(--s48));margin:var(--s32) calc(-1 * var(--s48));height:120px}
+.a-faq-list{counter-reset:none}
+.a-faq2 .q{background:#fff;border:0;border-left:4px solid #fff;margin:0 0 12px;padding:0 var(--s32);box-shadow:0 1px 3px #d6d1c5;transition:border-color .25s var(--ease-out),box-shadow .25s var(--ease-out),transform .25s var(--ease-out)}
+.a-faq2 .q[open]{border-left-color:var(--gold-l);box-shadow:0 3px 8px #cfcabd,0 16px 32px #dcd7cb}
+.a-faq2 .q summary{padding:var(--s24) 0}
+.a-faq2 .q p{padding-bottom:var(--s24)}
+html[data-motion="force"] .a-faq2 .q[open] p{animation:faqIn .35s var(--ease-out)}
+@keyframes faqIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+@media(hover:hover) and (pointer:fine){.a-faq2 .q:hover{transform:translateX(6px);border-left-color:var(--gold-l)}}
+@media(max-width:860px){
+  .a-faq2 .a-faq-in{grid-template-columns:1fr;gap:var(--s32)}
+  .a-faq-side{position:static;order:-1;padding:var(--s32) 24px 24px}
+  .a-faq2 .a-faq-side h2{font-size:var(--t32)}
+  .a-faq-side .ridge{width:calc(100% + 48px);margin:var(--s16) -24px;height:72px}
+  .a-faq2 .q{padding:0 var(--s16)}
+}
+.a-faq2 .q summary{padding-right:48px}
+.a-offices2 .a-office-fig img{object-position:47% 50%}
+.a-offices2 .a-office-fig img{object-position:44% 50%}
+
+/* ===== round 9: practice-area cards + offices/timeline gap ===== */
+.a-story.a-story2{border-top:var(--s96) solid var(--paper)}
+.a-areas-grid{gap:var(--s64) var(--s48);align-items:stretch}
+.a-card figure{margin:0;border-radius:0}
+.a-card img{aspect-ratio:16/10}
+.a-card-body{position:relative;flex:1;display:flex;flex-direction:column;align-items:flex-start;width:calc(100% - 2 * var(--s32));margin:-88px var(--s32) 0;padding:var(--s32) var(--s32) var(--s32);background:#fff;border-top:4px solid var(--gold-l);box-shadow:0 3px 8px #cfcabd,0 22px 44px #dcd7cb;transition:transform .3s var(--ease-out),box-shadow .3s var(--ease-out)}
+.a-card-body h3{font-size:var(--t24);color:var(--ink);margin-bottom:12px}
+.a-card-body .btn{margin-top:auto}
+@media(hover:hover) and (pointer:fine){.a-card:hover .a-card-body{transform:translateY(-8px);box-shadow:0 4px 10px #c4bfb2,0 30px 56px #d2cdc0}}
+@media(max-width:860px){
+  .a-story.a-story2{border-top-width:var(--s48)}
+  .a-card-body{width:calc(100% - 32px);margin:-48px 16px 0;padding:24px}
+}
+
+/* ===== round 10: Why section ===== */
+.a-why.a-why2{background:var(--blue);color:#fff;overflow-x:clip}
+.a-why2 .a-why-in{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr)}
+.a-why2 .a-why-fig{order:2;overflow:visible;border-radius:0;aspect-ratio:auto}
+.a-why-ph{overflow:hidden;aspect-ratio:4/5;border-radius:4px;box-shadow:0 4px 10px #0e4a69,0 30px 60px #0c405c}
+.a-why-ph img{width:100%;height:110%;object-fit:cover;object-position:72% 20%}
+.a-why2 .a-plaque{left:-64px;bottom:var(--s64);max-width:340px;background:var(--ink);color:#fff;border:0;border-top:4px solid var(--gold-l);font-size:var(--t20);padding:var(--s24) var(--s32);box-shadow:0 4px 10px #0e4a69,0 20px 40px #0c405c}
+.a-why2 .a-why-text h2{color:#fff}
+.a-why2 .a-why-text p{color:#fff}
+.a-why2 .a-why-text h2+p{font:500 var(--t24)/1.45 Montserrat,sans-serif;border-left:4px solid var(--gold-l);padding-left:var(--s32);margin-bottom:var(--s48)}
+@media(max-width:860px){
+  .a-why2 .a-why-in{grid-template-columns:1fr}
+  .a-why2 .a-why-fig{order:0}
+  .a-why-ph{aspect-ratio:4/3}
+  .a-why2 .a-plaque{left:0;bottom:16px;max-width:260px;font-size:var(--t15);padding:16px 20px}
+  .a-why2 .a-why-text h2+p{font-size:var(--t20);padding-left:var(--s16);margin-bottom:var(--s24)}
+}
+
+/* ===== round 11: lead split band, offices with the team photo ===== */
+.a-areas{padding-top:var(--s96)}
+.a-lead img{min-height:640px;object-position:50% 30%}
+.a-lead>div{align-self:stretch;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;margin:0;padding:var(--s96) max(24px,calc((100vw - 1360px)/2)) var(--s96) var(--s96);border-top:0;border-left:4px solid var(--gold-l);box-shadow:none}
+.a-lead:hover img{transform:none}
+.a-offices.a-offices3{display:block;padding:var(--s128) 0}
+.a-offices3 h2{margin-bottom:var(--s48)}
+.a-offices3 .a-office-fig{min-height:0;aspect-ratio:2/1;overflow:hidden;border-top:4px solid var(--gold-l);box-shadow:0 4px 10px #061a26,0 30px 60px #04121b}
+.a-offices3 .a-office-fig img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.a-offices3 .a-offices-list{grid-template-columns:1fr 1fr;gap:var(--s64);margin-top:var(--s64)}
+@media(max-width:860px){
+  .a-areas{padding-top:var(--s48)}
+  .a-lead img{min-height:0}
+  .a-lead>div{margin:0;padding:var(--s48) 24px;border-left:0;border-top:4px solid var(--gold-l)}
+  .a-offices.a-offices3{padding:var(--s64) 0}
+  .a-offices3 .a-office-fig{aspect-ratio:1486/802}
+  .a-offices3 .a-offices-list{grid-template-columns:1fr;gap:var(--s48);margin-top:var(--s48)}
+}
+</style></head><body>
+<div class="chrome" id="chrome"><span class="chrome-t">Miguel Martínez Injury Lawyers, homepage</span>
+<button data-go="A" type="button" hidden>A The Other Side</button><button data-go="B" type="button" hidden>B Since 1989</button><button data-go="C" type="button" hidden>C Two Problems, One Firm</button>
+<button id="cmp-btn" type="button" hidden>⇔ Compare</button><button id="motion-btn" type="button">Motion: on</button></div>
+<div class="cmp" id="cmp" hidden><div class="cmp-pane"><select id="cmp-l"><option>A</option><option>B</option><option>C</option></select><iframe id="cmp-fl" title="Left design"></iframe></div>
+<div class="cmp-pane"><select id="cmp-r"><option>A</option><option selected>B</option><option>C</option></select><iframe id="cmp-fr" title="Right design"></iframe></div></div>
+<div id="stage">
+<div class="design dA" data-d="A">
+<header class="a-head"><div class="a-head-in">
+<a href="#" class="logo"><img src="build/assets/logo.png" alt="Miguel Martínez Injury Lawyers"></a>
+<ul class="nav"><li><a href="#">Home</a></li><li class="has"><a href="#">Practice Areas</a><ul><li><a href="#">Workers’ Compensation</a></li><li><a href="#">Personal Injury</a></li><li><a href="#">Immigration</a></li><li><a href="#">Criminal Defense</a></li><li><a href="#">Motor Vehicle Accidents</a></li></ul></li><li class="has"><a href="#">Locations</a><ul><li><a href="#">Denver, CO</a></li><li><a href="#">Greeley, CO</a></li></ul></li><li class="has"><a href="#">About Us</a><ul><li><a href="#">About Miguel Martinez</a></li><li><a href="#">Testimonials</a></li></ul></li><li><a href="#">Blog</a></li><li><a href="#">Contact</a></li></ul>
+<div class="a-lang" role="group" aria-label="Language"><button class="on" type="button" data-lang="en">EN</button><button type="button" data-lang="es">ES</button></div>
+<a class="a-phone" href="tel:+13037475141">(303) 747-5141</a>
+<a class="btn" href="#a-form">Schedule Today</a>
+<details class="mnav"><summary>Menu</summary><ul class="mnav-list"><li><a href="#">Home</a></li><li class="has"><a href="#">Practice Areas</a><ul><li><a href="#">Workers’ Compensation</a></li><li><a href="#">Personal Injury</a></li><li><a href="#">Immigration</a></li><li><a href="#">Criminal Defense</a></li><li><a href="#">Motor Vehicle Accidents</a></li></ul></li><li class="has"><a href="#">Locations</a><ul><li><a href="#">Denver, CO</a></li><li><a href="#">Greeley, CO</a></li></ul></li><li class="has"><a href="#">About Us</a><ul><li><a href="#">About Miguel Martinez</a></li><li><a href="#">Testimonials</a></li></ul></li><li><a href="#">Blog</a></li><li><a href="#">Contact</a></li></ul></details>
+</div><p class="a-es" id="a-es" hidden>Se Habla Español. Llámenos al <a href="tel:+13037475141">(303) 747-5141</a></p></header>
+<main>
+<section class="a-hero a-hero2">
+  <div class="a-hero-bg"><img src="build/assets/miguel-city-building.jpg" alt="Attorney Miguel Martínez standing on the lawn in front of the Denver City and County Building" class=""  decoding="async" data-zoom></div>
+  <div class="a-hero-in">
+  <div class="a-hero-copy">
+    <h1>Colorado Personal Injury Attorney &amp; Legal Advocate</h1>
+    <p class="a-sub">Providing Results-Driven Legal Services Since 1989</p>
+    <p class="a-line">Law Firm Serving Colorado | Se Habla Español</p>
+    <p class="a-call"><a href="tel:+13037475141">Call: 303-747-5141</a></p>
+    <p class="a-hero-btn"><a class="btn btn-gold" href="#a-form">Schedule Today</a></p>
+    <p class="a-slogan">Con Miguel Martínez Si Ganas!</p>
+  </div>
+  <div class="a-hero-ridge"><svg class="ridge" viewBox="0 0 1440 150" preserveAspectRatio="none" aria-hidden="true"><path data-draw d="M0 132 H150 L232 22 L292 104 L352 8 L428 132 L470 132 L540 48 L596 118 L650 34 L716 132 H1440" fill="none" stroke="#c9a468" stroke-width="3" vector-effect="non-scaling-stroke"/></svg></div>
+  <div class="a-hero-form" id="a-form"><h2>Schedule Your Consultation Now</h2><p class="a-form-sub">Fill the form below or call us at <span class="nw">303-747-5141</span></p><form class="lead" onsubmit="return false"><p class="f-req">“ * ” indicates required fields</p><div class="f-row"><label for="a-first">First</label><input id="a-first" type="text" autocomplete="off"></div><div class="f-row"><label for="a-your-email-address">Your Email Address <span class="req">*</span></label><input id="a-your-email-address" type="email" autocomplete="off"></div><div class="f-row"><label for="a-your-phone">Your Phone <span class="req">*</span></label><input id="a-your-phone" type="tel" autocomplete="off"></div><div class="f-row"><label for="a-message">Message</label><textarea id="a-message" rows="3"></textarea></div><p class="f-sms">By providing a telephone number and submitting this form you are consenting to be contacted by SMS text message. Message &amp; data rates may apply. You can reply STOP to opt-out of further messaging.</p><label class="f-check"><input type="checkbox" id="a-priv"> <span>I agree to the privacy policy.</span></label><button class="btn" type="submit">Submit</button></form></div>
+  </div>
+</section>
+<section class="a-stats"><div class="wrap a-stats-in"><div class="a-stat rv"><p class="a-stat-l">Over</p><p class="a-stat-n"><span data-count="200" data-pre="$" data-suf="M">$200M</span></p><p class="a-stat-l">Recovered</p></div><div class="a-stat rv"><p class="a-stat-l">Represented</p><p class="a-stat-n">Thousands</p><p class="a-stat-l">Families and Individuals</p></div><div class="a-stat rv"><p class="a-stat-l">Over</p><p class="a-stat-n"><span data-count="35" data-pre="" data-suf=" Years">35 Years</span></p><p class="a-stat-l">Of Experience</p></div></div><p class="wrap note">Past results do not guarantee or predict similar outcomes in future cases. Each case is unique and must be evaluated on its own facts.</p></section>
+<section class="a-pains a-pains2"><div class="a-pains2-in">
+  <div class="a-pains-side"><div class="a-pains-stick"><h2 class="rv">Tired of Being Treated Like a Number, or Worse, a Target?</h2><p class="rv">Most injured people in Colorado don’t just face one problem. They face two. And most law firms only help with one of them.</p>
+    <p class="a-pains-btn"><a class="btn btn-gold" href="#a-form">Schedule Today</a></p></div></div>
+  <div class="a-pains-list"><div class="a-pair"><p class="a-q2 rv rv-l">“My last attorney never called me back.”</p><p class="a-a2 rv rv-r">At Miguel Martínez Injury Lawyers, you work directly with our team. You are never left in the dark. Every update, every decision, we walk you through it.</p></div><div class="a-pair"><p class="a-q2 rv rv-l">“The insurance company keeps calling and I don’t know what to say.”</p><p class="a-a2 rv rv-r">We take over all communication the moment you hire us. You don’t talk to them. We do.</p></div><div class="a-pair"><p class="a-q2 rv rv-l">“I’m afraid that if I file a lawsuit, immigration will get involved.”</p><p class="a-a2 rv rv-r">We’ve been protecting clients’ status in personal injury cases for over 35 years. We work to keep your immigration status out of your injury case.</p></div><div class="a-pair"><p class="a-q2 rv rv-l">“I can’t afford a lawyer. I’m already drowning in medical bills.”</p><p class="a-a2 rv rv-r">You pay $0 upfront. We only get paid when you win. If we don’t recover money for you, you owe us nothing.</p></div></div>
+</div></section>
+<section class="a-steps a-steps3"><div class="a-steps3-in">
+  <div class="a-steps3-body"><h2 class="rv">Getting Started Is Simple</h2><div class="a-steps-list"><span class="a-steps-line2" data-grow></span><div class="a-step rv" style="--d:0ms"><h3>Step 1: Call Us or Fill Out the Form</h3><p>It takes under 2 minutes, and your information stays completely confidential.</p></div><div class="a-step rv" style="--d:120ms"><h3>Step 2: We Review Your Case at No Cost</h3><p>We assess what happened, what you may be owed, and how we protect your status throughout the process. No pressure, no obligation.</p></div><div class="a-step rv" style="--d:240ms"><h3>Step 3: We Go to Work, You Focus on Healing</h3><p>You leave the consultation with a clear plan and a team that’s already fighting for you.</p></div></div>
+    <p class="a-steps-btn"><a class="btn btn-gold" href="#a-form">Schedule Today</a></p></div>
+  <figure class="a-steps-fig3"><img src="build/assets/team-at-work.jpg" alt="Miguel Martínez and his team working together around a conference table" class="" loading=lazy decoding="async" data-par="0.05"></figure></div></section>
+<section class="a-areas"><div class="wrap">
+  <article class="a-lead rv"><figure><img src="build/assets/workerscomp.jpg" alt="Construction worker in a hard hat helping an injured coworker walk off a job site" class="" loading=lazy decoding="async" ></figure><div><h2>The Legal Protection Colorado Families Actually Need</h2><h3>Workers’ Compensation, Including “Shadow Economy” Workers</h3><p>Whether you work on the books or off, you have legal rights in Colorado if you’re hurt on the job. We specifically fight for undocumented workers and cash-pay employees who are told by employers that they “can’t” file a claim. You may be entitled to lost wages, medical costs, and compensation for your injuries, regardless of your documentation status.</p><a class="btn btn-gold" href="#">Worker’s Compensation Attorney Services</a></div></article>
+  <div class="a-areas-grid"><article class="a-card rv"><figure><img src="build/assets/personal-injury.jpg" alt="Injured man with a neck brace and arm cast meeting with a legal professional at a desk" class="" loading=lazy decoding="async" ></figure><div class="a-card-body"><h3>Personal Injury: Car, Truck &amp; Pedestrian Accidents</h3><p>You were hurt by someone else’s negligence on Colorado roads. Insurance companies move fast to minimize what they pay you, and they count on you not knowing your rights. We know the tactics they use because Miguel Martínez spent years on the other side of the courtroom as a federal prosecutor. We pursue the full value your case supports, and we work to keep your status out of it.</p><a class="btn" href="#">Personal Injury Attorney Services</a></div></article><article class="a-card rv"><figure><img src="build/assets/commercial-accidents.jpg" alt="Yellow box truck crashed off the side of a rural road with a tow truck behind it" class="" loading=lazy decoding="async" ></figure><div class="a-card-body"><h3>Motor Vehicle Accidents: Cars and Trucks</h3><p>A motor vehicle accident can turn your life upside down in an instant, and the road to fair compensation is rarely straightforward. Insurance companies move fast to protect their bottom line, not yours. Miguel Martínez Injury Lawyers moves faster.</p><p>Commercial vehicle cases add another layer of complexity. These vehicles are larger, the injuries are often more severe, and liability rarely falls on just one party. We know how to untangle it, and we negotiate hard with every responsible party on your behalf. If they won’t settle fairly, we take it to court.</p><a class="btn" href="#">Motor Vehicle Accident Attorney Services</a></div></article><article class="a-card rv"><figure><img src="build/assets/criminal-defense.jpg" alt="Hands in handcuffs resting on a table" class="" loading=lazy decoding="async" ></figure><div class="a-card-body"><h3>Criminal Defense</h3><p>A car accident, a workplace incident, or a moment of crisis can quickly turn into a criminal charge in Colorado. Having an attorney who understands both the civil and criminal side of the same incident is rare, and it can matter a great deal to how a case is handled. We handle both, so nothing falls through the cracks.</p><a class="btn" href="#">Criminal Defense Attorney Services</a></div></article><article class="a-card rv"><figure><img src="build/assets/immigration.jpg" alt="Hand holding a United States passport in front of an American flag" class="" loading=lazy decoding="async" ></figure><div class="a-card-body"><h3>Immigration-Protected Injury Claims</h3><p>Defense attorneys routinely try to weaponize a plaintiff’s immigration status to scare them into accepting a low settlement or dropping a case entirely. Miguel Martínez has seen this tactic from both sides of the aisle. We work to block it before it starts, using specific legal strategies aimed at keeping your status out of the courtroom and your family safe.</p><a class="btn" href="#">Immigration Attorney Services</a></div></article></div></div></section>
+<section class="a-why a-why2"><div class="wrap a-why-in">
+  <figure class="a-why-fig"><div class="a-why-ph"><img src="build/assets/miguel-office.jpg" alt="Attorney Miguel Martínez in his office beside a bookshelf of law books and a framed Department of Justice seal" class="" loading=lazy decoding="async" data-par="0.05"></div><figcaption class="a-plaque">Former Assistant District Attorney and Assistant U.S. Attorney</figcaption></figure>
+  <div class="a-why-text"><h2 class="rv">Why Coloradans Trust Miguel Martínez Injury Lawyers</h2><p class="rv">Miguel Martínez has been fighting for Colorado families since 1989. That’s over 35 years and more than 5,000 cases handled. In that time, his firm has recovered over $200 million for injured clients across Denver, Greeley, and the surrounding communities.</p><p class="rv">His background is uncommon among personal injury attorneys in Colorado. Before representing injury victims, Miguel served as both an Assistant District Attorney and an Assistant U.S. Attorney. He knows how prosecutors and defense teams build their cases, and he uses that insider knowledge to take apart the opposition’s strategy early.</p><p class="rv">Miguel came to the United States from Mexico at age 16. He served as a U.S. Army Field Medic in Vietnam. He built his career from the ground up in Colorado, and he has spent decades serving the community he calls home. He is not just your attorney. He is your advocate, your neighbor, and someone who has faced the same fears his clients face.</p><p class="rv">Few firms in the Denver Metro area and surrounding communities offer this combination: former-prosecutor trial skill + immigration protection strategy + 35 years of community trust + Se Habla Español. That is why families who have the most to lose choose Miguel Martínez.</p><p class="a-why-cta"><a class="btn btn-gold" href="#a-form">Schedule Today</a></p></div></div></section>
+<section class="a-offices a-offices2 a-offices3"><div class="wrap"><h2 class="rv">Our Offices in Denver and Greeley</h2>
+  <figure class="a-office-fig rv"><img src="build/assets/team-office-sign.jpg" alt="The team at the Law Offices of Miguel Martínez, P.C. in Denver, standing outside the office" class="" loading=lazy decoding="async" ></figure><div class="a-offices-list"><div class="a-office rv"><p class="a-city">Denver</p><h3>Miguel Martínez Injury Lawyers – Denver</h3><p>1776 Vine St, Denver, CO 80206</p><p>Mon – Fri: 9:00 AM – 5:00 PM<br>Sat – Sun: Closed</p><a class="btn btn-gold" href="#">Denver Location</a></div><div class="a-office rv"><p class="a-city">Greeley</p><h3>Miguel Martínez Injury Lawyers – Greeley</h3><p>5312 W 9th St Dr, Suite 130, Greeley, CO 80634</p><p>Mon – Fri: 9:00 AM – 5:00 PM<br>Sat – Sun: Closed</p><a class="btn btn-gold" href="#">Greeley Location</a></div></div></div></section>
+<section class="b-story a-story a-story2">
+  <div class="a-story-band"><img src="build/assets/flag-gavel.jpg" alt="A judge&#x27;s gavel resting in front of an American flag" class="" loading=lazy decoding="async" data-par="0.1"><h2 class="b-story-h rv">Experience Rooted in Service, Advocacy Built on Empathy</h2></div>
+  <div class="wrap"><div class="b-story-grid"><div class="b-year-pin"><p class="b-year" aria-hidden="true"><span>1966</span></p><p class="a-rail" aria-hidden="true"><span data-y="1966">1966</span><span data-y="1970">1970</span><span data-y="1973">1973</span><span data-y="1977">1977</span><span data-y="1981">1981</span><span data-y="1989">1989</span></p>
+    <figure class="a-story-fig"><img src="build/assets/miguel-capitol.jpg" alt="Attorney Miguel Martínez standing in front of the Colorado State Capitol in Denver" class="" loading=lazy decoding="async" ></figure><p class="b-year-cap">Con Miguel Martínez Si Ganas!</p></div>
+  <div class="b-years"><h3 class="b-chap">Miguel’s Background</h3><div class="b-yr" data-year="1966"><p class="b-yr-m">1966</p><p>Miguel Martinez’s journey to the law began with resilience. In 1966, at just 16 years old, he and his family made the bold decision to immigrate from Mexico to the United States.</p></div><div class="b-yr" data-year="1970"><p class="b-yr-m">1970</p><p>After earning his high school diploma in 1970, Miguel answered the call to serve his adopted country by enlisting in the U.S. Army. He was deployed to Vietnam, where he worked as a Field Medic, a role that demanded both courage and a deep commitment to others.</p></div><div class="b-yr" data-year="1973"><p class="b-yr-m">1973</p><p>Honorably discharged in 1973, he went on to earn his undergraduate degree from the University of Houston in 1977, concentrating in Latin American History and Literature.</p></div><h3 class="b-chap">A Legal Career Defined by Purpose</h3><div class="b-yr" data-year="1977"><p class="b-yr-m">1977</p><p>Miguel’s path to the law took him first to Georgetown University in Washington, D.C., before he continued his studies closer to home at the University of Texas Law School in Austin, where he earned his Juris Doctor.</p></div><div class="b-yr" data-year="1981"><p class="b-yr-m">1981</p><p>Upon his admission to the Texas Bar in 1981, he dedicated the first chapter of his legal career to public service, spending eight years as an Assistant District Attorney in both San Antonio and Galveston, and as an Assistant U.S. Attorney for the Southern District of Texas in Houston.</p></div><div class="b-yr" data-year="1989"><p class="b-yr-m">1989</p><p>In 1989, Miguel and his family put down roots in Colorado, where he has been building his private practice for more than three decades.</p></div></div></div></div></section>
+<section class="a-faq a-faq2"><div class="wrap a-faq-in"><div class="a-faq-list"><details class="q rv"><summary>Can I file a personal injury claim if I’m undocumented?</summary><p>Yes. In Colorado, your immigration status does not affect your legal right to file a personal injury or workers’ compensation claim. You may seek compensation for your injuries regardless of your documentation, and we use specific legal strategies aimed at keeping your status out of the courtroom.</p></details><details class="q rv"><summary>How much does it cost to hire a personal injury attorney?</summary><p>Nothing upfront. We work on a contingency fee basis, so we only get paid if we win your case. Colorado contingency fees typically range from 30–40% of the final recovery, and we discuss this clearly before you sign anything. If we don’t win, you owe us nothing.</p></details><details class="q rv"><summary>How long do I have to file a personal injury claim in Colorado?</summary><p>For most personal injury cases, Colorado law gives you 2 years from the date of injury. Car accident cases have a 3-year window under Colorado’s statute of limitations (C.R.S. § 13-80-101). Do not wait. Evidence disappears and witnesses’ memories fade. Call us today.</p></details><details class="q rv"><summary>Will filing a lawsuit put my immigration status at risk?</summary><p>This is the question we get most often. Defense attorneys sometimes try to introduce immigration status to intimidate plaintiffs into settling for less. We know this tactic and we work to block it. Your status should not be admissible in a personal injury case, and we fight to keep it that way.</p></details><details class="q rv"><summary>What if I was partially at fault for the accident?</summary><p>Colorado follows a “Modified Comparative Negligence” rule under C.R.S. § 13-21-111. If you were less than 50% at fault, you can still recover compensation. It’s just reduced by your percentage of fault. Being partly to blame does not automatically end a claim.</p></details><details class="q rv"><summary>What happens to my medical bills while my case is pending?</summary><p>We negotiate directly with Denver Health, Saint Joseph Hospital, and other local providers to seek reductions in hospital liens. A reduced lien can mean more of a settlement stays with you instead of going straight to medical debt.</p></details><details class="q rv"><summary>How long will my case take?</summary><p>Many straightforward injury cases in Colorado resolve within 6–18 months. Complex cases involving serious injuries, commercial vehicles, or disputed liability can take longer. We give you a realistic timeline at your consultation, not a vague non-answer.</p></details></div>
+  <div class="a-faq-side"><h2 class="rv">Common Questions About Colorado Injury Claims</h2><svg class="ridge" viewBox="0 0 1440 150" preserveAspectRatio="none" aria-hidden="true"><path data-draw d="M0 132 H150 L232 22 L292 104 L352 8 L428 132 L470 132 L540 48 L596 118 L650 34 L716 132 H1440" fill="none" stroke="#c9a468" stroke-width="3" vector-effect="non-scaling-stroke"/></svg><p class="a-faq-btn"><a class="btn btn-gold" href="#a-form">Schedule Today</a></p></div></div></section>
+<section class="a-close a-close2"><figure class="a-close-fig"><img src="build/assets/office-exterior-denver.jpg" alt="Exterior of the Denver office on Vine Street" class="" loading=lazy decoding="async" ></figure>
+  <div class="a-close-body"><h2 class="rv">Ready to Fight Back and Protect Everything You’ve Built?</h2><p>You have a limited window to act. Evidence gets lost. Witnesses move on. Insurance companies are already building their defense. Call us today and we start working on your case immediately. In the next 5 minutes, you can reach our team, tell us what happened, and leave knowing what your options are, at zero cost to you.</p>
+  <p class="a-close-cta"><a class="btn btn-white" href="#a-form">Schedule Now</a><span class="a-close-tel">(303) 747-5141</span></p></div></section>
+</main>
+<footer class="a-foot foot"><div class="wrap f-grid">
+<div><img src="build/assets/logo-light.png" alt="Miguel Martínez Injury Lawyers" class="f-logo" loading=lazy>
+<p class="f-slogan">Con Miguel Martínez Si Ganas!</p></div>
+<div><p class="f-h">Denver office</p><p>1776 Vine St. Denver, CO 80206</p><p class="f-h f-h2">Greeley office</p><p>5312 W 9th St Dr, Suite 130, Greeley, CO 80634</p><p><a href="tel:+13037475141">(303) 747-5141</a></p><p>Mon – Fri: 9:00 AM – 5:00 PM<br>Sat – Sun: Closed</p></div>
+<div><p class="f-h">Practice areas</p><ul><li><a href="#">Workers’ Compensation</a></li><li><a href="#">Personal Injury</a></li><li><a href="#">Immigration</a></li><li><a href="#">Criminal Defense</a></li><li><a href="#">Motor Vehicle Accidents</a></li></ul></div>
+<div><p class="f-h">Follow</p><ul><li><a href="#">Facebook</a></li><li><a href="#">X</a></li><li><a href="#">Instagram</a></li></ul><p><a class="btn f-btn" href="#">Schedule Now</a></p></div>
+</div><div class="wrap f-legal"><p>The content on this page is provided for general informational purposes only and does not constitute legal advice. Reading this page does not create an attorney-client relationship. Laws vary by jurisdiction and change frequently. Always consult a licensed attorney for advice specific to your situation.</p><p>Past results do not guarantee or predict similar outcomes in future cases. Each case is unique and must be evaluated on its own facts.</p><p>Attorney Advertising. Miguel Martinez Injury Lawyers.</p><p>© 2026 Miguel Martinez Injury Lawyers. All Rights Reserved. | <a href="#">Privacy Policy</a></p></div></footer>
+<div class="a-talk" id="a-talk"><ul id="a-talk-list" hidden><li><a href="tel:+13037475141">Call (303) 747-5141</a></li><li><a href="#">Text us</a></li><li><a href="#">WhatsApp</a></li><li><a href="#">Chat in English or Español</a></li></ul>
+<button class="a-talk-btn" type="button" aria-expanded="false" aria-controls="a-talk-list">Talk to us</button></div>
+<nav class="a-dock" aria-label="Contact"><a href="tel:+13037475141">Call</a><a href="#">WhatsApp</a><a class="a-dock-cta" href="#a-form">Schedule Today</a></nav>
+</div>
+</div>
+<script>(function(){
+var root=document.documentElement, $=function(s,c){return (c||document).querySelector(s)}, $$=function(s,c){return [].slice.call((c||document).querySelectorAll(s))};
+function motion(){return root.dataset.motion==='force'}
+function active(){return $('.design[data-d="'+root.dataset.d+'"]')}
+
+/* banner options */
+root.dataset.hero=(new URLSearchParams(location.search).get('hero'))||'4';
+$$('[data-hero-go]').forEach(function(b){b.addEventListener('click',function(){root.dataset.hero=b.dataset.heroGo;window.scrollTo({top:0,behavior:'instant'});boot();});});
+/* tabs */
+$$('.chrome [data-go]').forEach(function(b){b.addEventListener('click',function(){
+  $('#cmp').hidden=true;root.dataset.d=b.dataset.go;history.replaceState(null,'','?d='+b.dataset.go);window.scrollTo({top:0,behavior:'instant'});boot();
+});});
+/* compare */
+function loadCmp(){$('#cmp-fl').src='?d='+$('#cmp-l').value+'&embed=1';$('#cmp-fr').src='?d='+$('#cmp-r').value+'&embed=1';}
+$('#cmp-btn').addEventListener('click',function(){var c=$('#cmp');c.hidden=!c.hidden;if(!c.hidden)loadCmp();document.body.style.overflow=c.hidden?'':'hidden';});
+$('#cmp-l').addEventListener('change',loadCmp);$('#cmp-r').addEventListener('change',loadCmp);
+/* motion toggle */
+$('#motion-btn').addEventListener('click',function(){
+  if(motion()){delete root.dataset.motion;this.textContent='Motion: off';}else{root.dataset.motion='force';this.textContent='Motion: on';}
+  onScroll();
+});
+
+/* reveals */
+var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}})},{rootMargin:'0px 0px -8% 0px',threshold:0.08});
+$$('.rv').forEach(function(el){io.observe(el)});
+
+/* count up */
+function countUp(el){var n=+el.dataset.count,pre=el.dataset.pre||'',suf=el.dataset.suf||'',t0=null;
+  if(!motion()){el.textContent=pre+n+suf;return;}
+  function step(t){if(!t0)t0=t;var p=Math.min(1,(t-t0)/1400),v=Math.round(n*(1-Math.pow(1-p,3)));el.textContent=pre+v+suf;if(p<1)requestAnimationFrame(step);}
+  requestAnimationFrame(step);}
+var cio=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){countUp(en.target);cio.unobserve(en.target);}})},{threshold:0.5});
+$$('[data-count]').forEach(function(el){cio.observe(el)});
+
+/* A: practice tabs */
+$$('.a-tab').forEach(function(t){t.addEventListener('click',function(){
+  $$('.a-tab').forEach(function(x){x.classList.toggle('on',x===t)});
+  $$('.a-panel').forEach(function(p){p.classList.toggle('on',p.dataset.panel===t.dataset.tab)});
+});});
+
+/* B: rail buttons */
+$$('[data-rail]').forEach(function(b){b.addEventListener('click',function(){var r=$('#b-rail');r.scrollBy({left:(+b.dataset.rail)*472,behavior:motion()?'smooth':'instant'});});});
+
+/* A: language switch, contact dock */
+$$('.a-lang button').forEach(function(b){b.addEventListener('click',function(){
+  $$('.a-lang button').forEach(function(x){x.classList.toggle('on',x===b)});var es=$('#a-es');if(es)es.hidden=b.dataset.lang!=='es';
+});});
+var tb=$('.a-talk-btn');if(tb)tb.addEventListener('click',function(){var l=$('#a-talk-list'),o=l.hidden;l.hidden=!o;tb.setAttribute('aria-expanded',o?'true':'false');tb.textContent=o?'Close':'Talk to us';});
+/* scroll-driven */
+var vh=window.innerHeight,lastY=0,ticking=false,curYear='';
+function prog(el,start,end){var r=el.getBoundingClientRect();var s=vh*start,e2=vh*end;return Math.max(0,Math.min(1,(s-r.top)/(r.height+s-e2)));}
+function onScroll(){
+  ticking=false;var d=active();if(!d)return;var y=window.scrollY,m=motion();
+  var small=window.innerWidth<861;
+  if(m&&small){$$('[data-par],[data-drift]',d).forEach(function(el){el.style.transform='';});}
+  if(m){
+    if(!small)$$('[data-par]',d).forEach(function(el){var r=el.parentElement.getBoundingClientRect();if(r.bottom<-200||r.top>vh+200)return;var c=(r.top+r.height/2-vh/2);el.style.transform='translate3d(0,'+(-c*parseFloat(el.dataset.par)).toFixed(1)+'px,0)';});
+    $$('[data-zoom]',d).forEach(function(el){var p=Math.min(1,y/vh);el.style.transform='scale('+(1.04+p*0.1).toFixed(4)+')';});
+    if(!small)$$('[data-drift]',d).forEach(function(el){var r=el.getBoundingClientRect();if(r.bottom<0||r.top>vh)return;var c=(r.top+r.height/2-vh/2)/vh;el.style.transform='translate3d('+(c*parseFloat(el.dataset.drift)).toFixed(1)+'px,0,0)';});
+    $$('[data-grow]',d).forEach(function(el){el.style.transform='scaleY('+prog(el.parentElement,0.75,0.55).toFixed(4)+')';});
+    $$('[data-growx]',d).forEach(function(el){var r=el.getBoundingClientRect();var p=Math.max(0,Math.min(1,(vh*0.9-r.top)/(vh*0.5)));el.style.transform='scaleX('+p.toFixed(4)+')';});
+  }
+  $$('path[data-draw]',d).forEach(function(p){var L=p._len||(p._len=p.getTotalLength());p.style.strokeDasharray=L;var r=p.ownerSVGElement.getBoundingClientRect();var k=m?Math.max(0,Math.min(1,(vh*0.95-r.top)/(vh*0.6))):1;if(p.closest('.c-hero,.a-hero')&&m){k=Math.max(k,p._boot||0);}p.style.strokeDashoffset=(L*(1-k)).toFixed(1);});
+  if($('.b-yr',d)){
+    var best=null,bd=1e9;$$('.b-yr',d).forEach(function(el){var r=el.getBoundingClientRect();var c=Math.abs(r.top+Math.min(r.height,200)/2-vh*0.42);if(c<bd){bd=c;best=el;}});
+    if(best){$$('.b-yr',d).forEach(function(el){el.classList.toggle('on',el===best)});
+      if(best.dataset.year!==curYear){curYear=best.dataset.year;$$('.a-rail span',d).forEach(function(x){x.classList.toggle('on',x.dataset.y<=curYear)});var n=$('.b-year span',d);n.classList.add('sw');setTimeout(function(){n.textContent=curYear;n.classList.remove('sw');},m?180:0);}}
+    var bb=$('#b-bar',d);if(bb)bb.classList.toggle('show',y>vh*0.7);
+  }
+  var tk=$('#a-talk',d);if(tk)tk.classList.toggle('show',y>vh*0.6);
+  if(root.dataset.d==='C'){var h=$('#c-head');h.classList.toggle('hide',y>lastY&&y>300);}
+  lastY=y;
+}
+function req(){if(!ticking){ticking=true;requestAnimationFrame(onScroll);}}
+window.addEventListener('scroll',req,{passive:true});
+window.addEventListener('resize',function(){vh=window.innerHeight;req();});
+
+function boot(){
+  var d=active();if(!d)return;curYear='';$$('.design').forEach(function(x){x.classList.toggle('on',x===d)});
+  d.classList.remove('ready');void d.offsetWidth;
+  requestAnimationFrame(function(){d.classList.add('ready');});
+  /* C hero ridge draws on load */
+  var hp=$('.c-hero path[data-draw],.a-hero path[data-draw]',d);if(hp){hp._boot=0;var t0=null;(function go(t){if(!t0)t0=t;var p=Math.min(1,(t-t0)/1600);hp._boot=1-Math.pow(1-p,3);onScroll();if(p<1)requestAnimationFrame(go);})(performance.now());}
+  onScroll();
+}
+if(document.fonts&&document.fonts.ready){document.fonts.ready.then(boot);}else{boot();}
+window.addEventListener('load',onScroll);
+})();
+</script></body></html>
